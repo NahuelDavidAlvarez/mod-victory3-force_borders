@@ -1,0 +1,20 @@
+﻿l_spanish:
+  force_historical_usa_borders: "Forzar Fronteras Históricas de EEUU"
+  force_historical_usa_borders_desc: "EEUU fronteras históricas"
+  force_historical_usa_borders_tooltip: "Anexiona Texas, California, el Suroeste, el Noroeste y las Grandes Llanuras, además de la CSA."
+  force_historical_usa_borders_confirm: "¿Estás seguro de que deseas forzar las fronteras históricas de EEUU?"
+
+  force_historical_arg_borders: "Forzar Fronteras Históricas de Argentina"
+  force_historical_arg_borders_desc: "Argentina fronteras históricas"
+  force_historical_arg_borders_tooltip: "Anexiona todos los estados que históricamente pertenecen a la República Argentina."
+  force_historical_arg_borders_confirm: "¿Estás seguro de que deseas forzar las fronteras históricas de Argentina?"
+
+  force_historical_chl_borders: "Forzar Fronteras Históricas de Chile"
+  force_historical_chl_borders_desc: "Chile fronteras históricas"
+  force_historical_chl_borders_tooltip: "Anexiona la Araucanía, Antofagasta y Tarapacá."
+  force_historical_chl_borders_confirm: "¿Estás seguro de que deseas forzar las fronteras históricas de Chile?"
+
+  force_historical_ast_borders: "Forzar Fronteras Históricas de Australia"
+  force_historical_ast_borders_desc: "Australia fronteras históricas"
+  force_historical_ast_borders_tooltip: "Anexiona Nueva Gales del Sur, Victoria, Queensland, Australia Meridional/Occidental, Tasmania y el Territorio del Norte."
+  force_historical_ast_borders_confirm: "¿Estás seguro de que deseas forzar las fronteras históricas de Australia?"

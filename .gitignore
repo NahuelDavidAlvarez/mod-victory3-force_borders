@@ -1,0 +1,12 @@
+# Paradox Interactive
+*.log
+*.error.log
+/shadercache/
+/dump/
+/logs/
+/temp/
+/.metadata/metadata.json.bak
+
+# OS specific
+.DS_Store
+Thumbs.db

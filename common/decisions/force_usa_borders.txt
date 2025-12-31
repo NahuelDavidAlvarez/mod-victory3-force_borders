@@ -1,0 +1,56 @@
+﻿force_historical_usa_borders = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # Costa Oeste y Suroeste (Cesión Mexicana 1848)
+        s:STATE_CALIFORNIA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_TEXAS = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_NEW_MEXICO = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_ARIZONA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_UTAH = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_NEVADA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_COLORADO = { every_scope_state = { set_state_owner = c:USA } }
+        
+        # Tratado de Oregón (1846)
+        s:STATE_OREGON = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_WASHINGTON = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_IDAHO = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_MONTANA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_WYOMING = { every_scope_state = { set_state_owner = c:USA } }
+        
+        # Grandes Llanuras
+        s:STATE_NORTH_DAKOTA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_SOUTH_DAKOTA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_NEBRASKA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_KANSAS = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_OKLAHOMA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_MINNESOTA = { every_scope_state = { set_state_owner = c:USA } }
+        
+        # Compra de Alaska (1867) y Hawaii (1898)
+        s:STATE_ALASKA = { every_scope_state = { set_state_owner = c:USA } }
+        s:STATE_HAWAIIAN_ISLANDS = { every_scope_state = { set_state_owner = c:USA } }
+
+        # Anexión de los Estados Confederados si existen
+        if = {
+            limit = { exists = c:CSA }
+            c:USA = {
+                annex = c:CSA
+            }
+        }
+
+        # Cambiar ley a Ejército Profesional
+        c:USA = {
+            activate_law = law_type:law_professional_army
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}

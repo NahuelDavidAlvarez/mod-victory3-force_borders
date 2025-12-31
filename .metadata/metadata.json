@@ -1,0 +1,6 @@
+{
+    "name":  "Force Borders",
+    "id":  "force_borders",
+    "supported_game_version":  "1.12.*",
+    "version":  "1.0.0"
+}

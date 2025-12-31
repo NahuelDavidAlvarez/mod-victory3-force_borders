@@ -1,0 +1,34 @@
+force_historical_arg_borders = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # Argentina (c:ARG)
+        s:STATE_BUENOS_AIRES = { every_scope_state = { set_state_owner = c:ARG } }
+        s:STATE_SANTA_FE = { every_scope_state = { set_state_owner = c:ARG } } # Santa Fe + Entre Ríos
+        s:STATE_CORRIENTES = { every_scope_state = { set_state_owner = c:ARG } } # Corrientes + Misiones
+        s:STATE_LA_PAMPA = { every_scope_state = { set_state_owner = c:ARG } } # Córdoba + San Luis
+        s:STATE_RIO_NEGRO = { every_scope_state = { set_state_owner = c:ARG } } # Mendoza + San Juan
+        s:STATE_TUCUMAN = { every_scope_state = { set_state_owner = c:ARG } } # Tucumán + Catamarca + La Rioja + Salta?
+        s:STATE_JUJUY = { every_scope_state = { set_state_owner = c:ARG } } # Jujuy + Salta
+        s:STATE_CHACO = { every_scope_state = { set_state_owner = c:ARG } } # Chaco + Santiago del Estero
+        s:STATE_FORMOSA = { every_scope_state = { set_state_owner = c:ARG } }
+        s:STATE_PATAGONIA = { every_scope_state = { set_state_owner = c:ARG } } # Neuquén + Chubut + etc
+        #s:STATE_SANTA_CRUZ = { every_scope_state = { set_state_owner = c:ARG } } # Santa Cruz + Tierra del Fuego
+        #s:STATE_SOUTH_ATLANTIC_ISLANDS = { every_scope_state = { set_state_owner = c:ARG } } # Malvinas
+
+        # Cambiar ley a Ejército Profesional
+        c:ARG = {
+            activate_law = law_type:law_professional_army
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}

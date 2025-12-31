@@ -1,0 +1,22 @@
+﻿force_historical_chl_borders = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # Chile (c:CHL)
+        s:STATE_SANTIAGO = { every_scope_state = { set_state_owner = c:CHL } }
+        s:STATE_LOS_RIOS = { every_scope_state = { set_state_owner = c:CHL } }
+        s:STATE_ARAUCANIA = { every_scope_state = { set_state_owner = c:CHL } }
+        s:STATE_ANTOFAGASTA = { every_scope_state = { set_state_owner = c:CHL } }
+        s:STATE_TARAPACA = { every_scope_state = { set_state_owner = c:CHL } }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}
