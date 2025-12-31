@@ -1,0 +1,18 @@
+usa_imperial_aggression = {
+    type = ai_strategy
+    
+    trigger = {
+        has_modifier = usa_imperial_impulse
+    }
+    
+    # Aumentar puntuación para objetivos de guerra de conquista y colonización
+    ai_strategy = {
+        type = conquer_state
+        value = 25
+    }
+    
+    ai_strategy = {
+        type = establish_colony
+        value = 50
+    }
+}

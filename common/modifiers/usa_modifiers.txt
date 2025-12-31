@@ -1,0 +1,8 @@
+usa_imperial_impulse = {
+    icon = "gfx/interface/icons/modifiers/generic_military.dds"
+    
+    army_size_modifier = 0.25
+    navy_size_modifier = 0.25
+    building_military_construction_speed_mult = 0.15
+    ai_aggression_modifier = 25
+}
