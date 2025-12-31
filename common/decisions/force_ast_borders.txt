@@ -4,22 +4,41 @@
     }
     
     possible = {
-        always = yes
+        OR = {
+            exists = c:AST
+            exists = c:TAS
+        }
     }
     
     when_taken = {
-        # Australia (c:AST)
-        s:STATE_NEW_SOUTH_WALES = { every_scope_state = { set_state_owner = c:AST } }
-        s:STATE_VICTORIA = { every_scope_state = { set_state_owner = c:AST } }
-        s:STATE_QUEENSLAND = { every_scope_state = { set_state_owner = c:AST } }
-        s:STATE_SOUTH_AUSTRALIA = { every_scope_state = { set_state_owner = c:AST } }
-        s:STATE_WESTERN_AUSTRALIA = { every_scope_state = { set_state_owner = c:AST } }
-        s:STATE_TASMANIA = { every_scope_state = { set_state_owner = c:AST } }
-        s:STATE_NORTHERN_TERRITORY = { every_scope_state = { set_state_owner = c:AST } }
-
-        # Nueva Zelanda (Comentado por si se desea activar)
-        # s:STATE_NORTH_ISLAND = { every_scope_state = { set_state_owner = c:AST } }
-        # s:STATE_SOUTH_ISLAND = { every_scope_state = { set_state_owner = c:AST } }
+        if = {
+            limit = { exists = c:AST }
+            # Si existe Australia, todo para ellos
+            s:STATE_NEW_SOUTH_WALES = { every_scope_state = { set_state_owner = c:AST } }
+            s:STATE_VICTORIA = { every_scope_state = { set_state_owner = c:AST } }
+            s:STATE_QUEENSLAND = { every_scope_state = { set_state_owner = c:AST } }
+            s:STATE_SOUTH_AUSTRALIA = { every_scope_state = { set_state_owner = c:AST } }
+            s:STATE_WESTERN_AUSTRALIA = { every_scope_state = { set_state_owner = c:AST } }
+            s:STATE_TASMANIA = { every_scope_state = { set_state_owner = c:AST } }
+            s:STATE_NORTHERN_TERRITORY = { every_scope_state = { set_state_owner = c:AST } }
+            
+            # Si TAS existe pero no es AST, anexar TAS a AST
+            if = {
+                limit = { exists = c:TAS NOT = { c:TAS = c:AST } }
+                c:AST = { annex = c:TAS }
+            }
+        }
+        else_if = {
+            limit = { exists = c:TAS }
+            # Si no existe AST pero si TAS (Tierra de Van Diemen), todo para TAS
+            s:STATE_NEW_SOUTH_WALES = { every_scope_state = { set_state_owner = c:TAS } }
+            s:STATE_VICTORIA = { every_scope_state = { set_state_owner = c:TAS } }
+            s:STATE_QUEENSLAND = { every_scope_state = { set_state_owner = c:TAS } }
+            s:STATE_SOUTH_AUSTRALIA = { every_scope_state = { set_state_owner = c:TAS } }
+            s:STATE_WESTERN_AUSTRALIA = { every_scope_state = { set_state_owner = c:TAS } }
+            s:STATE_TASMANIA = { every_scope_state = { set_state_owner = c:TAS } }
+            s:STATE_NORTHERN_TERRITORY = { every_scope_state = { set_state_owner = c:TAS } }
+        }
     }
     
     ai_chance = {

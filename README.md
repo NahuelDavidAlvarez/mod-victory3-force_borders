@@ -131,4 +131,18 @@ Si ves el código interno en la interfaz en lugar del nombre bonito, significa q
     mi_clave: "Texto"    # Incorrecto (falta sangría)
     ```
 3.  **Comillas:** Asegúrate de que el texto esté entre comillas dobles `"` y si usas comillas dentro del texto, escápalas.
-4.  **Codificación:** Recuerda siempre guardar como **UTF-8 con BOM**.
+
+## 8. Nombres Dinámicos (Colonias y Vasallos)
+A veces el nombre del país en el mapa cambia (ej: "Tierra de Van Diemen" en lugar de "Australia"). Esto es un **Nombre Dinámico**.
+
+**¿Cómo encontrar el nombre real?**
+Estos nombres suelen estar en `localization/spanish/countries_l_spanish.yml` con el prefijo `dyn_c_` o similar.
+
+**Para encontrarlos:**
+1.  Abre PowerShell en la carpeta del juego.
+2.  Ejecuta: `Select-String -Path "game/localization/spanish/countries/countries_l_spanish.yml" -Pattern "Nombre Que Ves En El Mapa"`
+
+*Ejemplo:*
+`Select-String ... -Pattern "Tierra de Van Diemen"`
+Resultado: `dyn_c_van_diemans_land: "Tierra de Van Diemen"`
+Esto te confirma que es un nombre cosmético y no un TAG de país distinto. El TAG sigue siendo el mismo (probablemente `vdm` o `ast` dependiendo del momento), pero el nombre visual cambia por script.

@@ -1,0 +1,844 @@
+Notes: E: Exists at start; F: Formable; R: Releasable; S: Formable or releasable by event
+NameReturn to top	Tag	Type	Tier	Capital state	Region	Cultures	Rel.	E	F	R	S
+Abkhazia.png Abkhazia	ABK	Recognized	Principality	Tiflis	Caucasus	North Caucasian	Sunni	No	No	No	Yes
+Absaroka.png Absaroka	ABS	Decentralized	Principality	Montana	Great Plains	Siouan	Animist	Yes	No	No	No
+Aceh.pngAceh
+Other names: Sumatra	ACE	Unrecognized	Principality	Aceh	Indonesia	Sumatran	Sunni	Yes	No	Yes	No
+Acholi.png Acholi	ACH	Decentralized	Principality	Uganda	Zanj	Luo, Lacustrine Bantu	Animist	Yes	No	No	No
+Adrar.png Adrar	ADR	Decentralized	Principality	Inner Mauritania	Senegal	Bidan	Sunni	Yes	No	No	No
+Afghanistan.pngAfghanistan
+Other names:	AFG	Unrecognized	Kingdom	Kabulistan	Persia	Pashtun, Tajik	Sunni	No	Yes	Yes	No
+Ainu Mosir.png Ainu Mosir	AIN	Decentralized	Principality	Hokkaido	Japan	Ainu	Animist	Yes	No	Yes	No
+Ait Abbas.png Ait Abbas	AIT	Unrecognized	Principality	Constantine	North Africa	Amazigh	Sunni	Yes	No	Yes	No
+Ajuran.png Ajuran	AJR	Decentralized	Principality	Kenya	Zanj	Somali	Sunni	Yes	No	No	No
+Alaska.pngAlaska
+Other names:	ALK	Colonial	Principality	Alaska	Pacific Coast	Russian	Orthodox	Yes	No	Yes	No
+Alba.png Alba	ALA	Recognized	Kingdom	Highlands	North Sea	Gael	Protestant	No	No	No	No
+Albania.png Albania	ALB	Recognized	Principality	Albania	Balkans	Albanian	Sunni	No	No	Yes	Yes
+Algeria.pngAlgeria
+Other names:	ALD	Unrecognized	Kingdom	Algiers	North Africa	Maghrebi, Amazigh	Sunni	No	Yes	Yes	No
+Altai.png Altai	ALI	Recognized	Principality	Altai	West Siberia	Mongol	Gelugpa	No	No	Yes	Yes
+Alwar.png Alwar	ALW	Unrecognized	Principality	Rajputana	Delhi	Rajput	Hindu	Yes	No	Yes	No
+Amazonia.png Amazonia	AMZ	Unrecognized	Kingdom	Amazonas	Brazil	Amazonian	Animist	No	No	Yes	No
+America.pngAmerica
+Other names:	USA	Recognized	Empire	District of Columbia	Dixie	Yankee, Dixie	Protestant	Yes	Yes	Yes	No
+Anahuac.png Anahuac	NAH	Unrecognized	Principality	México	Mexico	Nahua, Mixtec, Zapotec, Tarascan	Catholic	No	No	Yes	No
+Andalusia.png Andalusia	ANL	Recognized	Principality	Lower Andalusia	Iberia	Spanish	Catholic	No	No	Yes	No
+Angoche.png Angoche	AGC	Unrecognized	Principality	Mocambique	Zanj	Swahili	Sunni	Yes	No	No	No
+Angola Janga.png Angola Janga	AGJ	Recognized	Kingdom	Pernambuco	Brazil	Afro-Brazilian	Catholic	No	No	Yes	No
+Anhalt.png Anhalt	ANH	Recognized	Principality	Anhalt	North Germany	North German	Protestant	Yes	No	Yes	No
+Anhui.pngAnhui
+Other names: Anhui Clique	AHU	Unrecognized	Kingdom	Southern Anhui	South China	Han	Confucian	No	No	Yes	Yes
+Ankole.png Ankole	ANK	Unrecognized	Principality	Uganda	Zanj	Baganda, Lacustrine Bantu	Animist	Yes	No	No	No
+Antillean Confederation.pngAntillean Confederation
+Other names: Antillean Union	ATL	Recognized	Kingdom	Santo Domingo	Caribbean	Caribeño, Afro-Caribeño	Catholic	No	Yes	Yes	No
+Anuak.png Anuak	ANU	Decentralized	Principality	Amhara	Ethiopia	Luo	Animist	Yes	No	No	No
+Anyi.png Anyi	AYI	Decentralized	Principality	Ivory Coast	Senegal	Akan	Animist	Yes	No	No	No
+Aotearoa.png Aotearoa	AOT	Unrecognized	Kingdom	North Island	Oceania	Māori	Animist	No	Yes	No	No
+Apache.png Apache	APC	Decentralized	Principality	New Mexico	Great Plains	Apache	Animist	Yes	No	No	No
+Arabia.png Arabia	ARA	Unrecognized	Empire	Hedjaz	Arabia	Mashriqi, Bedouin, Misri, Yemenite	Shiite	No	Yes	No	No
+Arabistan.pngArabistan
+Other names: Muhammara	ARB	Unrecognized	Principality	Arabistan	Persia	Mashriqi	Shiite	Yes	No	Yes	No
+Aragon.png Aragon	ARN	Recognized	Kingdom	Aragon	Iberia	Aragonese	Catholic	No	No	Yes	No
+Arakan.png Arakan	ARK	Unrecognized	Principality	Arakan	Indochina	Burmese	Theravada	No	No	Yes	No
+Arapaho.png Arapaho	ARP	Decentralized	Principality	Colorado	Great Plains	Siouan	Animist	Yes	No	No	No
+Argentina.pngArgentina
+Other names:	ARG	Recognized	Kingdom	Buenos Aires	La Plata	Platinean	Catholic	Yes	No	Yes	No
+Armenia.png Armenia	ARM	Recognized	Kingdom	Armenia	Caucasus	Armenian	Oriental Orthodox	No	No	Yes	Yes
+Arsiland.png Arsiland	ARS	Unrecognized	Principality	Oromia	Ethiopia	Oromo	Sunni	Yes	No	No	No
+Ashanti.png Ashanti	ASH	Unrecognized	Kingdom	Gold Coast	Senegal	Akan	Animist	Yes	No	Yes	No
+Assam.png Assam	ASM	Unrecognized	Principality	Assam	Bengal	Assamese	Hindu	Yes	No	Yes	Yes
+Assyria.png Assyria	ASS	Recognized	Kingdom	Mosul	Arabia	Assyrian	Oriental Orthodox	No	No	Yes	Yes
+Asturias.png Asturias	ASU	Recognized	Principality	Asturias	Iberia	Asturleonese	Catholic	No	No	Yes	No
+Athabaska.png Athabaska	ATB	Decentralized	Principality	Northwest Territories	Canada	Athabaskan	Animist	Yes	No	No	Yes
+Aulihan.png Aulihan	AUL	Decentralized	Principality	Kenya	Zanj	Somali	Sunni	Yes	No	No	No
+Aussa.png Aussa	AWS	Unrecognized	Principality	Gonder	Ethiopia	Afar	Sunni	Yes	No	No	No
+Australia.png Australia	AST	Colonial	Kingdom	New South Wales	Oceania	Australian	Protestant	No	Yes	Yes	No
+Austria.pngAustria
+Other names:	AUS	Recognized	Empire	Austria	South Germany	South German	Catholic	Yes	No	Yes	No
+Awadh.pngAwadh
+Other names: Oudh	AWA	Unrecognized	Principality	Oudh	Central India	Avadhi	Shiite	Yes	No	Yes	Yes
+Aymara.png Aymara	AYM	Unrecognized	Principality	La Paz	The Andes	Aimara	Catholic	No	No	Yes	No
+Azal.pngAzal
+Other names: Qasimid State	ZAI	Unrecognized	Principality	Yemen	Arabia	Yemenite, Bedouin	Shiite	Yes	No	Yes	No
+Azande.png Azande	ZND	Decentralized	Principality	Lualaba	Congo	Azande	Animist	Yes	No	No	No
+Azerbaijan.pngAzerbaijan
+Other names:	AZB	Recognized	Kingdom	Baku	Caucasus	Azerbaijani	Shiite	No	No	Yes	Yes
+Baden.png Baden	BAD	Recognized	Grand Princ.	Baden	South Germany	South German	Catholic	Yes	No	Yes	No
+Bagirmi.png Bagirmi	BGI	Unrecognized	Principality	Waddai	Niger	Baguirmi	Sunni	Yes	No	No	No
+Bahamas.png Bahamas	BAH	Recognized	Principality	Bahamas	Caribbean	Afro-Caribbean	Protestant	No	No	Yes	No
+Bahawalpur.png Bahawalpur	BHW	Unrecognized	Principality	Punjab	Delhi	Punjabi, Sindi	Sunni	Yes	No	Yes	No
+Bahia.png Bahia	BHI	Recognized	Principality	Bahia	Brazil	Nordestino	Catholic	No	No	Yes	No
+Bahrain.png Bahrain	BHN	Unrecognized	Principality	Trucial Coast	Arabia	Bedouin	Sunni	Yes	No	Yes	No
+Bali.png Bali	BAL	Unrecognized	Principality	Sunda Islands	Indonesia	Balinese, Moluccan	Hindu	Yes	No	Yes	No
+Baluchistan.png Baluchistan	BLH	Unrecognized	Kingdom	Baluchistan	Bombay	Baluchi	Sunni	No	Yes	Yes	No
+Bamum.png Bamum	BMM	Decentralized	Principality	North Cameroon	Niger	Equatorial Bantu	Sunni	Yes	No	No	No
+Banat.png Banat	BNT	Recognized	Principality	Vojvodina	Danubia	South German, Serbian	Catholic	No	No	Yes	Yes
+Bangala.png Bangala	BNG	Decentralized	Principality	Equateur	Congo	Mongo, Fluvial Bantu	Animist	Yes	No	No	No
+Banjar.pngBanjar
+Other names: Kalimantan	BNJ	Unrecognized	Principality	East Borneo	Indonesia	Bornean	Sunni	Yes	No	Yes	No
+Baroda.png Baroda	BER	Unrecognized	Principality	Gujarat	Bombay	Gujarati, Marathi	Hindu	Yes	No	Yes	No
+Barotse.png Barotse	LZO	Decentralized	Principality	Zambia	Congo	Kavango Bantu	Animist	Yes	No	No	No
+Bashkiria.png Bashkiria	BKR	Recognized	Principality	Ufa	Urals	Bashkir	Sunni	No	No	Yes	No
+Bassa.png Bassa	BSS	Decentralized	Principality	Grain Coast	Senegal	Bassa	Animist	No	No	No	No
+Bastar.png Bastar	BAS	Unrecognized	Principality	Central Provinces	Central India	Gondi, Telugu	Hindu	Yes	No	Yes	No
+Basutoland.png Basutoland	BST	Unrecognized	Principality	Zululand	Southern Africa	Sotho	Animist	Yes	No	No	No
+Batonga.png Batonga	BTG	Decentralized	Principality	Lourenço Marques	Southern Africa	Tonga	Animist	No	No	No	No
+Baule.png Baule	BLE	Decentralized	Principality	Windward Coast	Senegal	Akan	Animist	Yes	No	No	No
+Bavaria.pngBavaria
+Other names:	BAV	Recognized	Kingdom	Bavaria	South Germany	South German	Catholic	Yes	No	Yes	No
+Begemder.png Begemder	BGM	Unrecognized	Principality	Amhara	Ethiopia	Amhara, Oromo, Tigray	Oriental Orthodox	Yes	No	Yes	No
+Beiyang.pngBeiyang
+Other names:	BEI	Unrecognized	Kingdom	Beijing	North China	Han	Confucian	No	No	No	Yes
+Beja.png Beja	BJA	Decentralized	Principality	Dongola	Nile	Beja	Sunni	No	No	No	No
+Belarus.png Belarus	BYE	Recognized	Kingdom	Minsk	Belarus	Byelorussian	Orthodox	No	No	Yes	No
+Belgium.pngBelgium
+Other names:	BEL	Recognized	Kingdom	Flanders	Rhine	Flemish, Wallonian	Catholic	Yes	No	Yes	No
+Bemba.png Bemba	BMB	Decentralized	Principality	Kazembe	Zanj	Lacustrine Bantu	Animist	Yes	No	No	No
+Bengal.png Bengal
+Other names:	BGL	Unrecognized	Kingdom	East Bengal	Bengal	Bengali	Sunni	No	Yes	Yes	Yes
+Benin.png Benin	BEN	Unrecognized	Principality	Benin	Niger	Edo	Animist	Yes	No	No	No
+Bhavnagar.png Bhavnagar	BHV	Unrecognized	Principality	Gujarat	Bombay	Gujarati	Hindu	Yes	No	Yes	No
+Bhopal.png Bhopal	BHO	Unrecognized	Principality	Malwa	Central India	Marathi, Pathan	Hindu	Yes	No	Yes	No
+Bhutan.png Bhutan	BHU	Unrecognized	Principality	Eastern Himalayas	Himalayas	Tibetan	Gelugpa	Yes	No	Yes	No
+Bihar.png Bihar	BIH	Unrecognized	Principality	Bihar	Bengal	Bihari	Hindu	No	No	Yes	No
+Bikaner.png Bikaner	BIK	Unrecognized	Principality	Rajputana	Delhi	Rajput	Hindu	Yes	No	Yes	No
+Bilua.png Bilua	BLA	Decentralized	Principality	Solomon Islands	Oceania	Melanesian	Animist	Yes	No	No	No
+Bobangi.png Bobangi	BOB	Decentralized	Principality	Equateur	Congo	Mongo, Bakongo	Animist	Yes	No	No	No
+Bohemia.png Bohemia	BOH	Recognized	Principality	Bohemia	South Germany	Czech	Catholic	No	No	Yes	No
+Bolivia.pngBolivia
+Other names:	BOL	Recognized	Kingdom	La Paz	The Andes	South Andean	Catholic	Yes	No	Yes	Yes
+Borana.png Borana	BRN	Decentralized	Principality	Amhara	Ethiopia	Oromo	Sunni	Yes	No	No	No
+Borgu.png Borgu	BRG	Unrecognized	Principality	Hausaland	Niger	Mande, Fulbe	Sunni	Yes	No	No	No
+Bornu.png Bornu	BOR	Unrecognized	Principality	Bornu	Niger	Kanuri	Sunni	Yes	No	No	No
+Bosnia-Herzegovina.png Bosnia-Herzegovina	BOS	Recognized	Principality	Bosnia	Balkans	Bosniak	Sunni	No	No	Yes	Yes
+Brakna.png Brakna	BRK	Decentralized	Principality	Mauritania	Senegal	Haratin	Sunni	Yes	No	No	No
+Brazil.png Brazil	BRZ	Recognized	Empire	Rio de Janeiro	Brazil	Brazilian	Catholic	Yes	Yes	Yes	Yes
+Bremen.pngBremen
+Other names:	BRE	Recognized	City-State	Elbe	North Germany	North German	Protestant	Yes	No	Yes	No
+Brittany.png Brittany	BRI	Recognized	Principality	Brittany	France	Breton	Catholic	No	No	Yes	No
+Brunei.png Brunei	BRU	Unrecognized	Principality	North Borneo	Indonesia	Bornean	Sunni	Yes	No	Yes	No
+Brunswick.png Brunswick	BRA	Recognized	Principality	Brunswick	North Germany	North German	Protestant	Yes	No	Yes	No
+Buganda.png Buganda	BUG	Unrecognized	Principality	Uganda	Zanj	Baganda	Animist	Yes	No	No	No
+Bukhara.png Bukhara	BUK	Unrecognized	Principality	Uzbekia	Central Asia	Uzbek	Sunni	Yes	No	Yes	No
+Bulgaria.png Bulgaria	BUL	Recognized	Kingdom	Bulgaria	Balkans	Bulgarian	Orthodox	No	No	Yes	Yes
+Bulungan.pngBulungan
+Other names: Kalimantan	BLG	Unrecognized	Principality	East Borneo	Indonesia	Bornean	Sunni	Yes	No	No	No
+Bundu.png Bundu	BND	Decentralized	Principality	Senegal	Senegal	Fulbe, Mande	Sunni	Yes	No	No	No
+Bunyoro.png Bunyoro	BNY	Unrecognized	Principality	Uganda	Zanj	Baganda, Lacustrine Bantu	Animist	Yes	No	No	No
+Burma.png Burma	BUR	Unrecognized	Kingdom	Mandalay	Indochina	Burmese	Theravada	Yes	No	Yes	Yes
+Burundi.png Burundi	BRD	Unrecognized	Principality	Tanganyika	Zanj	Rundi	Animist	Yes	No	No	No
+Buryatia.png Buryatia	BRY	Recognized	Principality	Buryatia	East Siberia	Buryat	Gelugpa	No	No	Yes	No
+Buton.png Buton	BTN	Unrecognized	Principality	Celebes	Indonesia	Moluccan	Sunni	Yes	No	Yes	No
+Byzantium.png Byzantium	BYZ	Recognized	Empire	Eastern Thrace	Anatolia	Greek	Orthodox	No	Yes	No	No
+California.pngCalifornia
+Other names:	CAL	Recognized	Principality	California	Pacific Coast	Yankee, Mexican	Protestant	No	No	Yes	No
+Cambodia.pngCambodia
+Other names:	CAM	Unrecognized	Kingdom	Cambodia	Indochina	Khmer	Theravada	Yes	No	Yes	No
+Canada.png Canada	CAN	Colonial	Kingdom	Ontario	Canada	Anglo-Canadian, Franco-Canadian	Protestant	No	Yes	Yes	No
+Carlist Spain.png Carlist Spain	SPC	Recognized	Kingdom	Basque Country	Iberia	Spanish	Catholic	Yes	No	No	No
+Carnatic.png Carnatic	CAR	Unrecognized	Kingdom	Carnatic	Madras	Tamil	Hindu	No	Yes	No	Yes
+Carolina.png Carolina	CLI	Recognized	Principality	North Carolina	Dixie	Dixie	Protestant	No	Yes	Yes	No
+Cascadia.png Cascadia	CSC	Decentralized	Principality	Northern Columbia	Pacific Coast	Salish	Animist	No	No	No	No
+Castile.png Castile	CAS	Recognized	Kingdom	New Castile	Iberia	Spanish	Catholic	No	No	Yes	No
+Catalonia.png Catalonia	CAT	Recognized	Principality	Catalonia	Iberia	Catalan	Catholic	No	No	Yes	No
+Cayor.png Cayor	CAY	Decentralized	Principality	Senegal	Senegal	Wolof	Sunni	Yes	No	No	No
+Central America.png Central America	UCA	Recognized	Kingdom	San Salvador	Central America	Central American	Catholic	Yes	Yes	Yes	Yes
+Central Europe.pngCentral Europe
+Other names:	HRE	Recognized	Hegemony	Austria	South Germany	North German, South German, Czech, Dutch, Flemish, Wallonian, Alemannic, North Italian, Slovene	Protestant	No	Yes	No	No
+Ceylon.png Ceylon	BCE	Colonial	Principality	Ceylon	Madras	English	Protestant	Yes	No	No	No
+Chaamba.png Chaamba	CMB	Decentralized	Principality	East Sahara	North Africa	Bedouin	Sunni	Yes	No	No	No
+Champassak.png Champassak	CHP	Unrecognized	Principality	Laos	Indochina	Lao	Theravada	Yes	No	Yes	No
+Chechnya.pngChechnya
+Other names: Caucasian Imamate	CHC	Unrecognized	Principality	North Caucasus	Caucasus	Chechen
+Information Starts with Chechen and North Caucasian	Sunni	Yes	No	Yes	No
+Cherokee.png Cherokee	CHE	Unrecognized	Principality	Arkansas	Dixie	Cherokee	Protestant	No	No	Yes	No
+Chewa.png Chewa	CHW	Decentralized	Principality	Kazembe	Zanj	Chewa	Animist	No	No	No	No
+Chiang Mai.png Chiang Mai	CMI	Unrecognized	Principality	Chiang Mai	Indochina	Thai, Shan	Theravada	Yes	No	Yes	No
+Chile.png Chile	CHL	Recognized	Kingdom	Santiago	La Plata	South Andean	Catholic	Yes	No	Yes	No
+China.pngChina
+Other names:	CHI	Unrecognized	Empire	Beijing	North China	Manchu, Han	Confucian	Yes	Yes	Yes	No
+Chitral.png Chitral	CHT	Unrecognized	Principality	Pashtunistan	Persia	Chitrali	Sunni	Yes	No	No	Yes
+Chokwe.png Chokwe	CHK	Decentralized	Principality	East Angola	Congo	Lunda, Ovimbundu	Animist	Yes	No	No	No
+Chukotka.png Chukotka	CKC	Recognized	Principality	Chukotka	East Siberia	Siberian	Animist	No	No	Yes	No
+Chuvashia.png Chuvashia	CHV	Recognized	Principality	Cheboksary	Russia	Chuvash	Orthodox	No	No	Yes	No
+Circassia.png Circassia	CIR	Unrecognized	Principality	Kuban	Caucasus	Circassian	Sunni	Yes	No	Yes	No
+Cochin.png Cochin	COC	Unrecognized	Principality	Malabar	Madras	Malayalm	Hindu	Yes	No	Yes	No
+Colombia.pngColombia
+Other names: New Granada	CLM	Recognized	Kingdom	Cundinamarca	Gran Colombia	North Andean	Catholic	Yes	Yes	Yes	No
+Columbia.png Columbia	COL	Colonial	Principality	Northern Columbia	Pacific Coast	English	Protestant	No	No	No	No
+Comanche.pngComanche
+Other names: Comancheria	COM	Decentralized	Principality	Texas	Dixie	Comanche	Animist	Yes	No	No	No
+Confederate States of America.pngConfederate States of America
+Other names:	CSA	Recognized	Kingdom	Virginia	Dixie	Dixie	Protestant	No	No	Yes	No
+Confederation of the Equator.pngConfederation of the Equator	EQT	Recognized	Principality	Pernambuco	Brazil	Nordestino	Catholic	No	No	Yes	No
+Confederation of the Rhine.pngConfederation of the Rhine	RHN	Recognized	Empire	Hesse	North Germany	North German, South German	Protestant	No	Yes	No	Yes
+Constantine.png Constantine	CON	Unrecognized	Principality	Constantine	North Africa	Maghrebi, Amazigh	Sunni	Yes	No	Yes	No
+Cooch Behar.png Cooch Behar	COO	Unrecognized	Principality	East Bengal	Bengal	Bengali	Hindu	Yes	No	Yes	No
+Cornwall.png Cornwall	CNW	Recognized	Principality	West Country	England	English	Protestant	No	No	Yes	No
+Corsica.png Corsica	COR	Recognized	Principality	Corsica	Italy	Corsican	Catholic	No	No	Yes	No
+Costa Rica.png Costa Rica	COS	Recognized	Principality	Costa Rica	Central America	Central American	Catholic	No	No	Yes	Yes
+Council of Three Fires.png Council of Three Fires	CTF	Decentralized	Principality	Michigan	The Midwest	Algonquian	Animist	No	No	No	No
+Crete.png Crete	CRE	Recognized	Principality	Crete	Balkans	Greek	Orthodox	No	No	Yes	No
+Crimea.png Crimea	CRI	Unrecognized	Principality	Crimea	Dnieper	Tatar	Sunni	No	No	Yes	No
+Croatia.pngCroatia
+Other names: Croatia-Slavonia	CRO	Recognized	Kingdom	Croatia	Balkans	Croatian	Catholic	Yes	No	Yes	No
+Cuba.png Cuba	CUB	Colonial	Principality	Western Cuba	Caribbean	Caribeño	Catholic	Yes	No	Yes	No
+Cyprus.png Cyprus	CYP	Recognized	Principality	Cyprus	Anatolia	Greek	Orthodox	No	No	Yes	Yes
+Cyrenaica.png Cyrenaica	CYR	Unrecognized	Principality	Cyrenaica	North Africa	Maghrebi	Sunni	No	No	Yes	No
+Czechoslovakia.png Czechoslovakia	CZH	Recognized	Kingdom	Bohemia	South Germany	Czech, Slovak	Catholic	No	Yes	Yes	No
+Da Cheng.pngDa Cheng
+Other names: Guangxi Clique	GNG	Unrecognized	Kingdom	Guangxi	South China	Han, Yue, Zhuang	Confucian	No	No	Yes	Yes
+Dagestan.png Dagestan	DAG	Recognized	Kingdom	Dagestan	Caucasus	North Caucasian	Sunni	No	No	Yes	No
+Dahomey.png Dahomey	DAH	Unrecognized	Principality	Dahomey	Niger	Fon	Animist	Yes	No	Yes	No
+Dai Nam.png Dai Nam	DAI	Unrecognized	Kingdom	Annam	Indochina	Vietnamese	Confucian	Yes	No	Yes	No
+Dakota.png Dakota	DKT	Decentralized	Principality	Minnesota	The Midwest	Dakota	Animist	No	No	No	No
+Danubian State.pngDanubian State
+Other names:	KUK	Recognized	Empire	Great Hungarian Plain	Danubia	South German, Hungarian, Romanian, Croatian, Czech, Slovak, Slovene	Catholic	No	Yes	No	Yes
+Danzig.png Danzig	DZG	Recognized	City-State	West Prussia	Poland	North German	Protestant	No	No	Yes	No
+Dar al Kuti.png Dar al Kuti	DAK	Decentralized	Principality	Ubangi-Shari	Congo	Fur, Equatorial Bantu	Sunni	Yes	No	No	No
+Dar Fertit.png Dar Fertit	DFT	Decentralized	Principality	Equatoria	Nile	Equatorial Bantu, Azande	Animist	Yes	No	No	No
+Darfur.png Darfur	DFR	Unrecognized	Principality	Darfur	Nile	Fur, Bedouin	Sunni	Yes	No	Yes	No
+Degar.png Degar	DGR	Decentralized	Principality	Annam	Indochina	Champa	Animist	Yes	No	No	No
+Delim.png Delim	DLM	Decentralized	Principality	West Sahara	North Africa	Bidan	Sunni	Yes	No	No	No
+Denmark.png Denmark	DEN	Recognized	Kingdom	Zealand	Scandinavia	Danish	Protestant	Yes	No	Yes	No
+Deseret.png Deseret	DES	Recognized	Principality	Utah	Pacific Coast	Yankee, Dixie	Protestant	No	No	Yes	No
+Dharampur.png Dharampur	DHA	Unrecognized	Principality	Gujarat	Bombay	Gujarati	Hindu	Yes	No	Yes	No
+Dhundhar.png Dhundhar
+Other names: Jaipur	JAI	Unrecognized	Principality	Rajputana	Delhi	Rajput	Hindu	Yes	No	Yes	No
+Dinka.png Dinka	DNK	Decentralized	Principality	Equatoria	Nile	Dinka	Animist	Yes	No	No	No
+Diola.png Diola	DIO	Decentralized	Principality	Sierra Leone	Senegal	Fulbe	Animist	Yes	No	No	No
+Dir.png Dir	DIR	Unrecognized	Principality	Pashtunistan	India	Pashtun	Sunni	No	No	No	Yes
+Don Cossack Host.png Don Cossack Host	DON	Recognized	Principality	Rostov	Caucasus	Russian, Ukrainian	Orthodox	No	No	Yes	No
+Dravida Nadu.png Dravida Nadu	DRA	Unrecognized	Empire	Carnatic	India	Tamil, Telugu, Malayalam, Kannada	Hindu	No	Yes	No	No
+Duala.png Duala	DLA	Decentralized	Principality	South Cameroon	Congo	Equatorial Bantu	Animist	Yes	No	No	No
+East India.pngEast India
+Other names:	BIC	Colonial	Principality	West Bengal	Bengal	English	Protestant	Yes	No	No	No
+East Indies.png East Indies	DEI	Colonial	Principality	West Java	Indonesia	Dutch	Protestant	Yes	No	No	No
+Ecuador.pngEcuador
+Other names: Quito	ECU	Recognized	Principality	Ecuador	The Andes	North Andean	Catholic	Yes	No	Yes	No
+Eden.png Eden	EDE	Unrecognized	Principality	Bavaria	South Germany	Promethean	Atheist	No	No	No	No
+Egypt.png Egypt	EGY	Unrecognized	Kingdom	Lower Egypt	Nile	Misri	Sunni	Yes	No	Yes	Yes
+El Salvador.png El Salvador	ELS	Recognized	Principality	San Salvador	Central America	Central American	Catholic	No	No	Yes	Yes
+Emirate of Transjordan.png Emirate of Transjordan	EOT	Unrecognized	Principality	Transjordan	Arabia	Mashriqi, Bedouin	Shiite	No	No	Yes	No
+England.png England	ENG	Recognized	Kingdom	Home Counties	England	English	Protestant	No	Yes	Yes	No
+Equatoria.png Equatoria	EQU	Decentralized	Principality	Equatoria	Nile	Nilotic	Animist	No	No	No	No
+Erzya-Moksha.png Erzya-Moksha	MRD	Recognized	Principality	Tambov	Russia	Mordvin	Orthodox	No	No	Yes	No
+Estonia.png Estonia	EST	Recognized	Principality	Talinn	Livonia	Estonian	Protestant	No	No	Yes	No
+Ethiopia.png Ethiopia	ETH	Unrecognized	Empire	Gonder	Ethiopia	Amhara, Oromo, Tigray	Oriental Orthodox	No	Yes	Yes	No
+Ewe.png Ewe	EWE	Decentralized	Principality	Togo	Niger	Ewe	Animist	Yes	No	No	No
+Ezo.png Ezo	EZO	Unrecognized	Principality	Hokkaido	Japan	Japanese, Ainu	Mahayana	No	No	Yes	No
+Fang.png Fang	FNG	Decentralized	Principality	Gabon	Congo	Fang	Animist	Yes	No	No	No
+Far East.png Far East	FER	Unrecognized	Principality	Chita	East Siberia	Siberian, Inuit	Animist	No	No	Yes	No
+Federation of the Andes.pngFederation of the Andes
+Other names:	FND	Recognized	Hegemony	Panama	Central America	North Andean, South Andean	Catholic	No	Yes	No	No
+Fezzan.png Fezzan	FZN	Unrecognized	Principality	Fezzan	North Africa	Maghrebi	Sunni	Yes	No	Yes	No
+Fiji.png Fiji	FJI	Decentralized	Principality	Fiji	Oceania	Melanesian	Animist	Yes	No	No	No
+Finland.pngFinland
+Other names:	FIN	Recognized	Grand Princ.	Uusimaa	Finland	Finnish, Swedish	Protestant	Yes	No	Yes	No
+Flanders.png Flanders	FLA	Recognized	Principality	Flanders	Rhine	Flemish	Catholic	No	No	Yes	No
+Florida.png Florida	FLR	Recognized	Principality	Florida	Dixie	Dixie	Protestant	No	No	Yes	No
+Formosa.png Formosa	FRS	Unrecognized	Principality	Formosa	South China	Min	Confucian	No	No	Yes	No
+France.pngFrance
+Other names:	FRA	Recognized	Empire	Île-de-France	France	French	Catholic	Yes	Yes	Yes	No
+Frankfurt.png Frankfurt	FRM	Recognized	City-State	Hesse	North Germany	North German	Protestant	Yes	No	Yes	No
+Free State.pngFree State
+Other names:	AFS	Colonial	Principality			Bakongo	Animist	No	No	No	Yes
+Free States of America.png Free States of America	FSA	Recognized	Kingdom	New York	New England	Yankee	Protestant	No	Yes	No	No
+Futa Jallon.png Futa Jallon	FTJ	Unrecognized	Principality	Guinea	Senegal	Fulbe	Sunni	Yes	No	No	No
+Futa Toro.png Futa Toro	FTR	Unrecognized	Principality	Senegal	Senegal	Fulbe, Wolof	Sunni	Yes	No	No	No
+Galicia-Lodomeria.png Galicia-Lodomeria	GAL	Recognized	Principality	East Galicia	Poland	Polish, Ukrainian	Catholic	No	Yes	Yes	Yes
+Galicia.png Galicia	GLI	Recognized	Principality	Galicia	Iberia	Galician	Catholic	No	No	Yes	No
+Gamilaraay.png Gamilaraay	GML	Decentralized	Principality	New South Wales	Oceania	Aboriginal	Animist	No	No	No	No
+Gao.png Gao	GAO	Decentralized	Principality	Timbuktu	Senegal	Songhai	Sunni	No	No	No	No
+Garhwal.png Garhwal	GAR	Unrecognized	Principality	Agra	Central India	Pahari	Hindu	Yes	No	No	No
+Gaza.png Gaza	GZA	Unrecognized	Kingdom	Lourenço Marques	Southern Africa	Nguni	Animist	Yes	No	No	No
+Geledi.png Geledi	GLD	Unrecognized	Principality	Somaliland	Ethiopia	Somali	Sunni	Yes	No	No	No
+Georgia (GEO).pngGeorgia
+Other names: Kartli-Kakheti	GEO	Recognized	Kingdom	Tiflis	Caucasus	Georgian	Orthodox	No	No	Yes	Yes
+Georgia (GRG).png Georgia	GRG	Recognized	Principality	Georgia	Dixie	Dixie	Protestant	No	No	Yes	No
+Germany.pngGermany
+Other names:	GER	Recognized	Empire	Brandenburg	North Germany	North German, South German	Protestant	No	Yes	No	No
+Gobir.png Gobir	HAU	Unrecognized	Principality	Outer Hausaland	Niger	Hausa	Sunni	Yes	No	No	No
+Gogo.png Gogo	GGO	Decentralized	Principality	Rufiji	Zanj	Lacustrine Bantu	Animist	Yes	No	No	No
+Gojjam.png Gojjam	GJM	Unrecognized	Principality	Amhara	Ethiopia	Amhara	Oriental Orthodox	Yes	No	Yes	No
+Gran Colombia.png Gran Colombia	GCO	Recognized	Empire	Cundinamarca	Gran Colombia	North Andean	Catholic	No	Yes	No	No
+Grão-Pará.png Grão-Pará	PRA	Recognized	Principality	Pará	Brazil	Amazonic	Catholic	Yes	No	Yes	No
+Great Britain.pngGreat Britain
+Other names:	GBR	Recognized	Empire	Home Counties	England	English, Scottish	Protestant	Yes	Yes	Yes	No
+Greece.png Greece	GRE	Recognized	Kingdom	Attica	Balkans	Greek	Orthodox	Yes	No	Yes	Yes
+Greenland.png Greenland	GRN	Recognized	Principality	Greenland	North Sea	Danish, Inuit	Protestant	No	No	Yes	No
+Griqualand.png Griqualand
+Other names:	WBL	Unrecognized	Principality	Northern Cape	Southern Africa	Griqua	Protestant	Yes	No	No	No
+Guarani (GNI).png Guarani	GNI	Decentralized	Principality	Alto Paraguay	La Plata	Guarani	Animist	Yes	No	No	No
+Guarani (GRI).png Guarani	GRI	Unrecognized	Kingdom	Amazonas	Brazil	Guarani	Animist	No	No	No	No
+Guatemala.png Guatemala	GUA	Recognized	Principality	Guatemala	Central America	Central American	Catholic	No	No	Yes	Yes
+Guizhou.pngGuizhou
+Other names: Guizhou Clique	GUI	Unrecognized	Kingdom	Guizhou	South China	Han	Confucian	No	No	Yes	Yes
+Gujarat.png Gujarat	GUJ	Unrecognized	Kingdom	Gujarat	Bombay	Gujarati	Hindu	No	Yes	No	Yes
+Gwalior.png Gwalior	GWA	Unrecognized	Principality	Malwa	Central India	Marathi, Bundeli	Hindu	Yes	No	Yes	No
+Hadiya.png Hadiya	HDY	Unrecognized	Principality	Amhara	Ethiopia	Oromo	Sunni	Yes	No	No	No
+Haiti.pngHaiti
+Other names:	HAI	Recognized	Principality	Haiti	Caribbean	Afro-Antillean	Catholic	Yes	No	Yes	No
+Halia.png Halia	HLA	Decentralized	Principality	Bougainville	Oceania	Melanesian	Animist	Yes	No	No	No
+Hamburg.png Hamburg	HAM	Recognized	City-State	Elbe	North Germany	North German	Protestant	Yes	No	Yes	No
+Hanover.png Hanover	HAN	Recognized	Kingdom	Hanover	North Germany	North German	Protestant	Yes	No	Yes	No
+Harar.png Harar	HAR	Unrecognized	Principality	Oromia	Ethiopia	Amhara	Sunni	Yes	No	No	No
+Hathawaddy.png Hathawaddy	HTH	Unrecognized	Principality	Pegu	Indochina	Mon	Theravada	No	No	Yes	No
+Haudenosaunee.png Haudenosaunee	IRO	Recognized	Principality	New York	New England	Iroquoian	Animist	No	No	Yes	No
+Hawaii.png Hawaii	HAW	Unrecognized	Kingdom	Hawaiian Islands	Oceania	Hawaiian	Protestant	Yes	No	No	No
+Hazarajat.png Hazarajat	HZJ	Unrecognized	Principality	Hazaristan	Persia	Hazara	Shiite	No	No	Yes	No
+Heavenly Kingdom.png Heavenly Kingdom	TPG	Unrecognized	Empire	Nanjing	South China	Han, Hakka	Protestant	No	No	No	Yes
+Hedjaz.png Hedjaz	HDJ	Unrecognized	Principality	Hedjaz	Arabia	Bedouin	Sunni	Yes	No	Yes	No
+Hehe.png Hehe	HHE	Decentralized	Principality	Rufiji	Zanj	Lacustrine Bantu	Animist	Yes	No	No	No
+Hemba.png Hemba	HMB	Decentralized	Principality	Lualaba	Congo	Fluvial Bantu	Animist	Yes	No	No	No
+Herat.png Herat	HER	Unrecognized	Principality	Herat	Persia	Pashtun, Persian	Sunni	Yes	No	No	Yes
+Herero.pngHerero
+Other names: Hereroland	HRO	Decentralized	Principality	Hereroland	Southern Africa	Herero, Khoisan	Animist	Yes	No	No	No
+Hesse-Kassel.png Hesse-Kassel	HEK	Recognized	Principality	Hesse	North Germany	North German	Protestant	Yes	No	Yes	No
+Hesse.png Hesse	HES	Recognized	Grand Princ.	Hesse	North Germany	North German	Protestant	Yes	No	Yes	No
+Hindustan.png Hindustan	MUG	Unrecognized	Empire	Delhi	Delhi	Hindustani	Sunni	Yes	Yes	No	Yes
+Hobyo.png Hobyo	HOB	Unrecognized	Principality	Somaliland	Ethiopia	Somali	Sunni	No	No	Yes	No
+Hohenzollern.png Hohenzollern	HOH	Recognized	Principality	Württemberg	South Germany	South German	Catholic	Yes	No	Yes	No
+Holstein.pngHolstein
+Other names: Schleswig-Holstein	HOL	Recognized	Principality	Schleswig-Holstein	North Germany	North German	Protestant	Yes	No	Yes	No
+Honduras.png Honduras	HON	Recognized	Principality	Honduras	Central America	Central American	Catholic	No	No	Yes	Yes
+Hudson's Bay Company.pngHudson's Bay Company
+Other names: Rupert’s Land	HBC	Colonial	Principality	Manitoba	Canada	Anglo-Canadian	Protestant	Yes	No	No	No
+Hunan.pngHunan
+Other names: Hunan Clique	HNA	Unrecognized	Kingdom	Hunan	South China	Han	Confucian	No	No	Yes	Yes
+Hungary.png Hungary	HUN	Recognized	Kingdom	Great Hungarian Plain	Danubia	Hungarian	Catholic	Yes	No	Yes	Yes
+Hyderabad.png Hyderabad	HYD	Unrecognized	Principality	Hyderabad	Madras	Deccani	Sunni	Yes	No	Yes	No
+Iberia.png Iberia
+Other names:	IBE	Recognized	Empire	New Castile	Iberia	Spanish, Portuguese	Catholic	No	Yes	No	Yes
+IBL.png IBL	IBL	Decentralized	Principality	Niger Delta	Niger	Ibibio	Animist	No	No	No	No
+Iceland.png Iceland	ICL	Recognized	Principality	Iceland	North Sea	Icelandic	Protestant	No	No	Yes	No
+Idar.png Idar	IDA	Unrecognized	Principality	Gujarat	Bombay	Gujarati	Hindu	Yes	No	Yes	No
+Idel-Ural.png Idel-Ural	IUS	Recognized	Kingdom	Kazan	Urals	Tatar, Bashkir, Udmurt, Mari, Chuvash, Mordvin	Sunni	No	No	Yes	No
+Igbo.png Igbo	IBO	Decentralized	Principality	Niger Delta	Niger	Ibo	Animist	Yes	No	No	No
+India.png India	HND	Unrecognized	Empire	Delhi	Delhi	Marathi, Bihari, Tamil, Oria, Gujarati	Hindu	No	No	No	No
+India.pngIndia
+Other names:	BHT	Recognized	Hegemony	Delhi	Delhi	Assamese, Avadhi, Baluchi, Bengali, Bihari, Gujarati, Kannada, Malayalam, Marathi, Oria, Punjabi, Pathan, Rajput, Sindi, Tamil, Telugu, Hindustani, Bundeli, Pahari, Gondi, Bagheli, Chhattisgarhi, Deccani	Hindu	No	Yes	No	Yes
+Indian Territory.pngIndian Territory
+Other names: Sequoyah	SEQ	Unrecognized	Principality	Oklahoma	Dixie	Cherokee, Siouan	Protestant	Yes	No	Yes	No
+Indonesia.pngIndonesia
+Other names: Majapahit, Srivijaya	IDN	Recognized	Empire	West Java	Indonesia	Balinese, Batak, Bornean, Dayak, Javan, Malay, Moluccan, Sumatran	Hindu	No	Yes	No	Yes
+Indore.png Indore	IND	Unrecognized	Principality	Malwa	Central India	Marathi	Hindu	Yes	No	Yes	No
+Indusstan.png Indusstan
+Other names:	IDS	Recognized	Kingdom	Punjab	Delhi	Punjabi, Sindi	Sunni	No	No	No	Yes
+Ionian Islands.png Ionian Islands	ION	Recognized	Principality	Ionian Islands	Balkans	Greek	Orthodox	Yes	No	Yes	No
+Iquicha.png Iquicha	IQU	Unrecognized	Principality	Ica	The Andes	Quechua	Catholic	Yes	No	No	No
+Iraq.png Iraq	IRQ	Unrecognized	Kingdom	Baghdad	Arabia	Mashriqi	Shiite	No	No	Yes	Yes
+Ireland.png Ireland	IRE	Recognized	Kingdom	Leinster	North Sea	Irish	Catholic	No	Yes	Yes	No
+Iron Confederacy.png Iron Confederacy	IRC	Decentralized	Principality	Saskatchewan	Great Plains	Cree, Siouan	Animist	Yes	No	No	No
+Isaaq.png Isaaq	ISQ	Unrecognized	Principality	Somaliland	Ethiopia	Somali	Sunni	Yes	No	No	No
+Israel.png Israel	ISR	Colonial	Principality	Palestine	Arabia	Ashkenazi, Sephardim	Jewish	No	No	Yes	No
+Italy.pngItaly
+Other names: Kingdom of Heaven	ITA	Recognized	Empire	Lazio	Italy	North Italian, South Italian	Catholic	No	Yes	No	No
+Jabal Shammar.png Jabal Shammar	JAB	Unrecognized	Principality	Hail	Arabia	Bedouin	Sunni	Yes	No	Yes	No
+Jaisalmer.png Jaisalmer	JAS	Unrecognized	Principality	Rajputana	Delhi	Rajput	Hindu	Yes	No	Yes	No
+Jamaica.png Jamaica	JAM	Recognized	Principality	Jamaica	Caribbean	Afro-Caribbean	Protestant	No	No	Yes	No
+Jambi.pngJambi
+Other names: Sumatra	JMB	Unrecognized	Principality	North Sumatra	Indonesia	Sumatran	Sunni	Yes	No	Yes	No
+Jan Mayen.png Jan Mayen	JAN	Recognized	City-State	Northern Norway	Scandinavia	Norwegian	Protestant	No	No	Yes	No
+Japan.pngJapan
+Other names:	JAP	Unrecognized	Empire	Kansai	Japan	Japanese	Mahayana	Yes	No	Yes	No
+Java.png Java	JAV	Unrecognized	Principality	West Java	Indonesia	Javan	Sunni	No	No	Yes	Yes
+Jeypore.png Jeypore	JEY	Unrecognized	Principality	Orissa	Bengal	Oria	Hindu	Yes	No	Yes	No
+Jhansi.png Jhansi	JHN	Unrecognized	Principality	Bundelkhand	Central India	Bundeli	Hindu	Yes	No	No	No
+Johore.png Johore	JOH	Unrecognized	Principality	Malaya	Indochina	Malay	Sunni	Yes	No	Yes	No
+Jolof.png Jolof	JLF	Decentralized	Principality	Senegal	Senegal	Wolof	Sunni	Yes	No	No	No
+Junagadh.png Junagadh	JUN	Unrecognized	Principality	Gujarat	Bombay	Gujarati, Pathan	Sunni	Yes	No	Yes	No
+Kaabu.png Kaabu	KBU	Decentralized	Principality	Senegal	Senegal	Mande	Animist	Yes	No	No	No
+Kaarta.png Kaarta	KRT	Unrecognized	Principality	Western Mali	Senegal	Bambara	Animist	Yes	No	No	No
+Kabadougou.png Kabadougou	KBD	Decentralized	Principality	Windward Coast	Senegal	Mande	Sunni	Yes	No	No	No
+Kabul.png Kabul	KAB	Unrecognized	Principality	Kabulistan	Persia	Pashtun, Tajik	Sunni	Yes	No	No	No
+Kachin.png Kachin	KHN	Unrecognized	Principality	Sagaing	Indochina	Kachin	Animist	No	No	Yes	No
+Kaffa.png Kaffa	KFA	Unrecognized	Principality	Amhara	Ethiopia	Sidama, Oromo	Oriental Orthodox	Yes	No	No	No
+Kafiristan.pngKafiristan
+Other names: Nuristan	KAF	Unrecognized	Principality	Kabulistan	Persian	Chitrali, Pashtun	Hindu	Yes	No	No	No
+Kalat.png Kalat	KAL	Unrecognized	Principality	Baluchistan	Bombay	Baluchi	Sunni	Yes	No	Yes	Yes
+Kalimantan.png Kalimantan	KLT	Unrecognized	Principality	West Borneo	Indonesia	Bornean, Dayak	Sunni	No	No	Yes	No
+Kalmykia.png Kalmykia	KLM	Unrecognized	Principality	Kalmykia	Caucasus	Kalmyk	Gelugpa	No	No	Yes	No
+Kamchatka.png Kamchatka	KMC	Recognized	Principality	Kamchatka	East Siberia	Siberian	Animist	No	No	Yes	No
+Kanak.png Kanak	KNK	Decentralized	Principality	Kanak	Oceania	Melanesian	Animist	Yes	No	No	No
+Kandahar.png Kandahar	KAN	Unrecognized	Principality	Kandahar	Persia	Pashtun, Tajik	Sunni	Yes	No	No	No
+Kanty-Mansi.png Kanty-Mansi	KNT	Recognized	Principality	Surgut	West Siberia	Ugrian	Animist	No	No	Yes	No
+Karagwe.png Karagwe	KRG	Unrecognized	Principality	Tanganyika	Zanj	Lacustrine Bantu, Baganda	Animist	Yes	No	No	No
+Karelia.png Karelia	KRL	Recognized	Principality	East Karelia	Finland	Karelian	Orthodox	No	No	Yes	No
+Karen.png Karen	KRN	Unrecognized	Principality	Pegu	Indochina	Karen	Theravada	No	No	Yes	Yes
+Kasanje.png Kasanje	KSN	Decentralized	Principality	East Angola	Congo	Lunda, Ovimbundu	Animist	Yes	No	No	No
+Kashmir.png Kashmir
+Other names:	KAS	Unrecognized	Principality	Kashmir	Himalayas	Kashmiri	Sunni	Yes	No	Yes	Yes
+Kathiri.png Kathiri	KAT	Unrecognized	Principality	Yemen	Arabia	Bedouin, Yemenite	Sunni	Yes	No	Yes	No
+Kaurna.png Kaurna	KAU	Unrecognized	Principality	South Australia	Oceania	Aboriginal	Animist	Yes	No	Yes	No
+Kazakhstan.pngKazakhstan
+Other names:	KAZ	Unrecognized	kingdom	Semipalatinsk	Central Asia	Kazakh	Sunni	No	Yes	Yes	Yes
+Kazembe.png Kazembe	KZM	Decentralized	Principality	Kazembe	Zanj	Lunda	Animist	Yes	No	No	No
+Kel Adagh.png Kel Adagh	ADG	Decentralized	Principality	Timbuktu	Senegal	Tuareg	Sunni	Yes	No	No	No
+Kel Ahaggar.png Kel Ahaggar	AHG	Decentralized	Principality	East Sahara	North Africa	Tuareg	Sunni	Yes	No	No	No
+Kel Air.png Kel Air	AIR	Decentralized	Principality	Niger	Niger	Tuareg	Sunni	Yes	No	No	No
+Kel Ajjer.png Kel Ajjer	AJJ	Decentralized	Principality	Fezzan	North Africa	Tuareg	Sunni	Yes	No	No	No
+Kel Ataram.png Kel Ataram	ATR	Decentralized	Principality	Timbuktu	Senegal	Tuareg	Sunni	Yes	No	No	No
+Kel Dinnik.png Kel Dinnik	DIN	Decentralized	Principality	Niger	Niger	Tuareg	Sunni	Yes	No	No	No
+Khairpur.png Khairpur	KPR	Unrecognized	Principality	Sindh	Bombay	Baluchi	Sunni	No	No	No	Yes
+Kharan.png Kharan	KHR	Unrecognized	Principality	Baluchistan	Bombay	Baluchi	Sunni	No	No	No	Yes
+Khasi.png Khasi	MGH	Decentralized	Principality	Assam	Bengal	Naga	Animist	Yes	No	No	No
+Khiva.png Khiva	KHI	Unrecognized	Principality	Chorasmia	Central Asia	Uzbek	Sunni	Yes	No	Yes	No
+Khmer Loeu.png Khmer Loeu	KLO	Decentralized	Principality	Cambodia	Indochina	Khmer	Animist	Yes	No	No	No
+Khmu.png Khmu	KHM	Unrecognized	Principality	Laos	Indochina	Khmu	Animist	No	No	Yes	No
+Kikuyu.png Kikuyu	KKY	Decentralized	Principality	Kenya	Zanj	Kikuyu	Animist	Yes	No	No	No
+Kirgizia.png Kirgizia	KYR	Recognized	Grand Princ.	Kirghizia	Central Asia	Kyrgyz	Sunni	No	Yes	Yes	No
+Kishi Zhuz.png Kishi Zhuz	KZH	Unrecognized	Principality	Uralsk	Central Asia	Kazakh	Sunni	Yes	No	No	No
+Kissi.png Kissi	KSS	Decentralized	Principality	Guinea	Senegal	Kissi	Animist	No	No	No	No
+Kokand.png Kokand	KOK	Unrecognized	Principality	Fergana	Central Asia	Kyrgyz	Sunni	Yes	No	Yes	No
+Kolhapur.png Kolhapur	KHP	Unrecognized	Principality	Bombay	Bombay	Marathi	Hindu	Yes	No	Yes	No
+Kong.png Kong	KNG	Decentralized	Principality	Ivory Coast	Senegal	Dyula, Senufo	Sunni	Yes	No	No	No
+Kongo.png Kongo	KON	Unrecognized	Principality	Lower Congo	Congo	Bakongo	Catholic	Yes	No	No	No
+Korea.pngKorea
+Other names: Joseon, Empire of Korea	KOR	Unrecognized	Kingdom	Gyeonggi	Manchuria	Korean	Confucian	Yes	No	Yes	No
+Kotah.png Kotah	KOT	Unrecognized	Principality	Rajputana	Delhi	Rajput	Hindu	Yes	No	Yes	No
+Krakow.png Krakow	KRA	Recognized	City-State	West Galicia	Poland	Polish	Catholic	Yes	No	Yes	No
+Kru.png Kru	KRU	Decentralized	Principality	Windward Coast	Senegal	Kru	Animist	Yes	No	No	No
+Kuba.png Kuba	KBA	Decentralized	Principality	Kasai	Congo	Fluvial Bantu	Animist	Yes	No	No	No
+Kuki.png Kuki	KKI	Decentralized	Principality	Assam	Bengal	Lushai	Animist	Yes	No	No	No
+Kunduz.png Kunduz	KUN	Unrecognized	Principality	Southern Turkestan	Persia	Uzbek, Tajik	Sunni	Yes	No	No	No
+Kurdistan.png Kurdistan	KUR	Unrecognized	Kingdom	Mosul	Arabia	Kurdish	Sunni	No	No	Yes	Yes
+Kurnool.png Kurnool	KNO	Unrecognized	Principality	Ceded Districts	India	Pathan, Deccani, Telugu	Sunni	Yes	No	Yes	Yes
+Kutai.pngKutai
+Other names: Kalimantan	KTI	Unrecognized	Principality	East Borneo	Indonesia	Bornean	Sunni	Yes	No	No	No
+Kutch.png Kutch	KUT	Unrecognized	Principality	Gujarat	Bombay	Gujarati	Hindu	Yes	No	Yes	No
+Ladakh.png Ladakh	LAD	Unrecognized	Principality	Kashmir	Himalayas	Tibetan	Gelugpa	Yes	No	No	No
+Lahej.png Lahej	LAH	Unrecognized	Principality	Yemen	Arabia	Bedouin, Yemenite	Sunni	Yes	No	Yes	No
+Lakota.pngLakota
+Other names: Great Sioux Nation	LKT	Decentralized	Principality	South Dakota	Great Plains	Dakota	Animist	Yes	No	No	No
+Lanfang.pngLanfang
+Other names: Bo-Ni	LAN	Unrecognized	Principality	West Borneo	Indonesia	Hakka	Confucian	Yes	No	Yes	No
+Laos.png Laos	LAO	Unrecognized	Kingdom	Laos	Indochina	Lao	Theravada	No	Yes	Yes	No
+Las Bela.png Las Bela	LBL	Unrecognized	Principality	Baluchistan	Bombay	Baluchi	Sunni	No	No	No	Yes
+Latvia.pngLatvia
+Other names: Courland	LAT	Recognized	Principality	South Livonia	Livonia	Latvian	Protestant	No	No	Yes	No
+Lebanon.png Lebanon	LEB	Unrecognized	Principality	Lebanon	Arabia	Mashriqi	Shiite	No	No	Yes	No
+Lega.png Lega	LGA	Decentralized	Principality	Lualaba	Congo	Fluvial Bantu	Animist	Yes	No	No	No
+León.png León	LEO	Recognized	Kingdom	Leon	Iberia	Asturleonese	Catholic	No	No	Yes	No
+Liberia.png Liberia	LIB	Unrecognized	Principality	Grain Coast	Senegal	Afro-American	Protestant	Yes	No	Yes	No
+Libya.png Libya	LBY	Unrecognized	Kingdom	Tripoli	North Africa	Maghrebi	Sunni	No	Yes	Yes	No
+Limburg.png Limburg	LIM	Recognized	Principality	Gelre	Rhine	Dutch	Protestant	No	No	No	Yes
+Lippe.png Lippe	LIP	Recognized	Principality	Westphalia	Rhine	North German	Protestant	Yes	No	Yes	No
+Lithuania.png Lithuania	LIT	Recognized	Principality	Lithuania	Livonia	Lithuanian	Catholic	No	No	Yes	No
+Loango.png Loango	LNG	Decentralized	Principality	Congo	Congo	Bakongo	Animist	Yes	No	No	No
+Lombardia.pngLombardia
+Other names: Lombardy-Venetia	LOM	Recognized	Principality	Lombardy	Italy	North Italian	Catholic	No	No	Yes	No
+Lomwe.png Lomwe	LMW	Decentralized	Principality	Mocambique	Zanj	Lomwe	Animist	No	No	No	No
+Los Altos.png Los Altos	ALT	Recognized	Principality	Guatemala	Central America	Central American	Catholic	No	No	Yes	No
+Louisiana.pngLouisiana
+Other names:	LOU	Recognized	Principality	Louisiana	Dixie	Cajun, Afro-Antillean	Catholic	No	No	Yes	No
+Luang Prabang.png Luang Prabang	LUA	Unrecognized	Principality	Laos	Indochina	Lao	Theravada	Yes	No	Yes	No
+Luba.png Luba	LBA	Decentralized	Principality	Katanga	Congo	Luba	Animist	Yes	No	No	No
+Lübeck.pngLübeck	LUB	Recognized	City-State	Schleswig-Holstein	North Germany	North German	Protestant	Yes	No	Yes	No
+Lucca.png Lucca	LUC	Recognized	Principality	Emilia	Italy	North Italian	Catholic	Yes	No	Yes	No
+Lunda.png Lunda	LND	Decentralized	Principality	East Angola	Congo	Lunda, Ovimbundu	Animist	Yes	No	No	No
+Luo.png Luo	LUO	Decentralized	Principality	Rift Valley	Zanj	Luo	Animist	Yes	No	No	No
+Luristan.pngLuristan
+Other names: Bakhtiari	LUR	Unrecognized	Principality	Luristan	Persia	Luri	Sunni	No	No	Yes	No
+Luxembourg.png Luxembourg	LUX	Recognized	Grand Princ.	Wallonia	Rhine	Wallonian, North German	Catholic	Yes	No	Yes	No
+Madagascar.pngMadagascar
+Other names: Merina Kingdom	MAD	Unrecognized	Kingdom	North Madagascar	Zanj	Malagasy	Animist	Yes	No	Yes	No
+Maghreb.png Maghreb	MGB	Unrecognized	Empire	Tunisia	North Africa	Maghrebi, Amazigh, Bidan	Sunni	No	Yes	No	No
+Maguindanao.png Maguindanao	MGD	Unrecognized	Principality	Mindanao	Indonesia	Moro	Sunni	Yes	No	No	No
+Maharashtra.png Maharashtra	MHR	Unrecognized	Empire	Bombay	Bombay	Marathi	Hindu	No	Yes	No	No
+Mahra.png Mahra	MAH	Unrecognized	Principality	Yemen	Arabia	Bedouin, Yemenite	Sunni	Yes	No	Yes	No
+Maimana.png Maimana	MAI	Unrecognized	Principality	Southern Turkestan	Persia	Uzbek, Turkmen, Tajik	Sunni	Yes	No	No	No
+Majerteen.png Majerteen	MJT	Unrecognized	Principality	Somaliland	Ethiopia	Somali	Sunni	Yes	No	No	No
+Makran.png Makran	MAK	Unrecognized	Principality	Baluchistan	Bombay	Baluchi	Sunni	Yes	No	Yes	Yes
+Makua.png Makua	MKU	Decentralized	Principality	Mocambique	Zanj	Makua	Animist	No	No	No	No
+Maldives.png Maldives	MLD	Unrecognized	Principality	Ceylon	Madras	Sinhala	Sunni	Yes	No	No	No
+Mali.png Mali	MAL	Unrecognized	Kingdom	Western Mali	Senegal	Bambara, Fulbe, Wolof, Mande	Animist	No	Yes	No	No
+Malta.png Malta	MLT	Recognized	City-State	Malta	Italy	Maltese	Catholic	No	No	Yes	No
+Manchuria.pngManchuria
+Other names: Fengtian Clique	MCH	Unrecognized	Kingdom	Southern Jilin	Manchuria	Manchu	Confucian	No	No	Yes	Yes
+Mandinka.png Mandinka	MDK	Decentralized	Principality	Guinea	Senegal	Mande	Sunni	Yes	No	No	No
+Mangbetu.png Mangbetu	MNB	Decentralized	Principality	Lualaba	Congo	Fluvial Bantu	Animist	Yes	No	No	No
+Manica.png Manica	MNC	Decentralized	Principality	Zambezia	Zanj	Shona	Animist	Yes	No	No	No
+Manipur.png Manipur	MNP	Unrecognized	Principality	Assam	Bengal	Manipuri	Hindu	Yes	No	Yes	No
+Mapuche.png Mapuche	PAT	Decentralized	Principality	Patagonia	La Plata	Patagonian	Animist	Yes	No	No	No
+Maravi.png Maravi	MRV	Decentralized	Principality	Kazembe	Zanj	Chewa	Animist	Yes	No	No	No
+Mari El.png Mari El	MRI	Recognized	Principality	Cheboksary	Russia	Mari	Orthodox	No	No	Yes	No
+Marwar.pngMarwar
+Other names: Jodhpur	JOD	Unrecognized	Principality	Rajputana	Delhi	Rajput	Hindu	Yes	No	Yes	No
+Masai.png Masai	MSI	Decentralized	Principality	Rift Valley	Zanj	Maasai	Animist	Yes	No	No	No
+Mascara.png Mascara	MAS	Unrecognized	Principality	Oran	North Africa	Maghrebi, Amazigh	Sunni	Yes	No	Yes	No
+Maseko.png Maseko	MSK	Decentralized	Principality	Zambezia	Zanj	Nguni	Animist	Yes	No	No	No
+Mashona.pngMashona
+Other names: Rozvi	MSH	Decentralized	Principality	Zambezi	Southern Africa	Shona	Animist	Yes	No	No	No
+Massina.png Massina	MSN	Unrecognized	Principality	Eastern Mali	Senegal	Fulbe	Sunni	Yes	No	No	No
+Maya.png Maya	MAY	Unrecognized	Kingdom	Yucatán	Central America	Maya	Catholic	No	No	Yes	No
+Mayurbhanj.png Mayurbhanj	MYB	Unrecognized	Principality	Orissa	Bengal	Oria	Hindu	Yes	No	Yes	No
+Mazandaran.png Mazandaran	MAZ	Unrecognized	Principality	Mazandaran	Persia	Mazanderani	Shiite	No	No	Yes	No
+Mecklenburg-Strelitz.png Mecklenburg-Strelitz	MST	Recognized	Grand Princ.	Mecklenburg	North Germany	North German	Protestant	Yes	No	Yes	No
+Mecklenburg.png Mecklenburg	MEC	Recognized	Grand Princ.	Mecklenburg	North Germany	North German	Protestant	Yes	No	Yes	No
+Métis.png Métis	MTC	Unrecognized	Principality	Manitoba	Canada	Métis	Catholic	No	No	Yes	No
+Mewar.pngMewar
+Other names: Udaipur	MEW	Unrecognized	Principality	Rajputana	Delhi	Rajput	Hindu	Yes	No	Yes	No
+Mexico.pngMexico
+Other names:	MEX	Recognized	Kingdom	México	Mexico	Mexican	Catholic	Yes	Yes	Yes	No
+Michigan.png Michigan	UOM	Recognized	Principality	Michigan	The Midwest	Yankee	Protestant	No	No	Yes	No
+Michoacán.png Michoacán	MCO	Decentralized	Principality	Jalisco	Mexico	Tarascan	Catholic	No	No	No	No
+Micronesia.png Micronesia	MCR	Decentralized	Principality	East Micronesia	Oceania	Micronesian	Animist	Yes	No	No	No
+Mijikenda.png Mijikenda	MJK	Decentralized	Principality	Kenya	Zanj	Lacustrine Bantu	Animist	Yes	No	No	No
+Minas Gerais.png Minas Gerais	MNG	Recognized	Principality	Minas Gerais	Brazil	Brazilian	Catholic	No	No	Yes	No
+Mindanao.png Mindanao	MND	Decentralized	Principality	Mindanao	Indonesia	Lumad	Animist	Yes	No	No	No
+Mirning.png Mirning	MRN	Decentralized	Principality	Western Australia	Oceania	Aboriginal	Animist	Yes	No	No	No
+Miskitia.pngMiskitia
+Other names:	MKT	Unrecognized	Principality	Nicaragua	Central America	Miskito, Afro-Caribbean	Protestant	Yes	No	Yes	No
+Modena.png Modena	MOD	Recognized	Principality	Emilia	Italy	North Italian	Catholic	Yes	No	Yes	No
+Moldavia.pngMoldavia
+Other names:	MOL	Recognized	Principality	Moldavia	Danubia	Romanian	Orthodox	Yes	No	Yes	Yes
+Mombasa.png Mombasa	MBS	Unrecognized	Principality	Kenya	Zanj	Swahili	Ibadi	Yes	No	No	No
+Mongolia.pngMongolia
+Other names:	MGL	Unrecognized	Kingdom	Urga	North China	Mongol	Gelugpa	No	No	Yes	Yes
+Montenegro.pngMontenegro
+Other names: Serbia and Montenegro	MON	Recognized	Principality	Montenegro	Balkans	Serbian	Orthodox	Yes	No	Yes	Yes
+Morocco.png Morocco	MOR	Unrecognized	Kingdom	Fez	North Africa	Maghrebi, Amazigh	Sunni	Yes	No	Yes	No
+Mossi.png Mossi	MOS	Decentralized	Principality	Volta	Senegal	Mossi	Animist	Yes	No	No	No
+Mountain Republic.png Mountain Republic	NCA	Recognized	Principality	North Caucasus	Caucasus	North Caucasian	Sunni	No	No	Yes	No
+Muang Phuan.pngMuang Phuan
+Other names: Tran Ninh	MPH	Unrecognized	Principality	Laos	Indochina	Lao	Theravada	No	No	Yes	No
+Muisca.png Muisca	MUI	Decentralized	Principality	Cundinamarca	Gran Colombia	Muisca	Animist	No	No	No	No
+Muscogee.png Muscogee	MSC	Unrecognized	Principality	Florida	Dixie	Muskogean	Protestant	No	No	No	No
+Mutapa.png Mutapa	MTP	Decentralized	Principality	Zambezi	Southern Africa	Shona	Animist	Yes	No	No	No
+Mysore.png Mysore	MYS	Unrecognized	Principality	Mysore	Madras	Kannada	Hindu	Yes	No	Yes	No
+Mzab.png Mzab	MZB	Decentralized	Principality	Sahara	North Africa	Amazigh	Ibadi	Yes	No	No	No
+Naga.png Naga	NGA	Decentralized	Principality	Assam	Bengal	Naga	Animist	Yes	No	No	No
+Nagpur.png Nagpur	NAG	Unrecognized	Principality	Central Provinces	Central India	Marathi	Hindu	Yes	No	Yes	No
+Nama.png Nama	NAM	Decentralized	Principality	Namaqualand	Southern Africa	Khoisan	Animist	Yes	No	No	No
+Narsinghpur.png Narsinghpur	NAR	Unrecognized	Principality	Orissa	Bengal	Oria	Hindu	Yes	No	Yes	No
+Nassau.png Nassau	NAS	Recognized	Principality	Hesse	North Germany	North German	Protestant	Yes	No	Yes	No
+Natalia.pngNatalia
+Other names:	NAL	Unrecognized	Principality	Zululand	Southern Africa	Boer	Protestant	No	No	No	Yes
+Nauru.png Nauru	NRU	Decentralized	Principality	Nauru	Oceania	Melanesian	Animist	Yes	No	No	No
+Navajo.png Navajo	NVJ	Decentralized	Principality	Arizona	Pacific Coast	Navajo	Animist	Yes	No	No	No
+Navajoland.png Navajoland	NVL	Decentralized	Principality	Arizona	Pacific Coast	Navajo	Animist	No	No	No	No
+Navarra.png Navarra	NAV	Recognized	Kingdom	Basque Country	Iberia	Basque	Catholic	No	No	Yes	No
+Nawanagar.png Nawanagar	NAW	Unrecognized	Principality	Gujarat	Bombay	Gujarati	Hindu	Yes	No	Yes	No
+Ndebele.pngNdebele
+Other names: Mthwakazi	MTB	Decentralized	Principality	Zambezi	Southern Africa	Nguni, Shona	Animist	Yes	No	No	No
+Nejd.pngNejd
+Other names: Saudi Arabia	NEJ	Unrecognized	Principality	Nejd	Arabia	Bedouin	Sunni	Yes	No	Yes	No
+Nepal.png Nepal	NEP	Unrecognized	Kingdom	Western Himalayas	Himalayas	Nepali	Hindu	Yes	No	Yes	No
+Netherlands.png Netherlands	NET	Recognized	Kingdom	Holland	Rhine	Dutch	Protestant	Yes	No	Yes	No
+New Africa.png New Africa	ASA	Recognized	Kingdom	Georgia	Dixie	Afro-American	Protestant	No	No	Yes	No
+New Brunswick.png New Brunswick	NBS	Colonial	Principality	Maritimes	New England	Anglo-Canadian, Franco-Canadian	Protestant	Yes	No	Yes	No
+New England.png New England	NEN	Recognized	Grand Princ.	Massachusetts	New England	Yankee	Protestant	No	No	Yes	No
+New South Wales.png New South Wales	NSW	Colonial	Principality	New South Wales	Oceania	Australian	Protestant	Yes	No	No	No
+New Zealand.png New Zealand	NZL	Colonial	Principality	North Island	Oceania	Australian	Protestant	No	No	Yes	No
+Newfoundland.png Newfoundland	NEW	Colonial	Principality	Newfoundland	Canada	Anglo-Canadian	Protestant	No	No	Yes	No
+Ngāi Tahu.png Ngāi Tahu	NTU	Decentralized	Principality	South Island	Oceania	Māori	Animist	Yes	No	No	No
+Ngāti Toa.png Ngāti Toa	NTO	Decentralized	Principality	North Island	Oceania	Māori	Animist	Yes	No	No	No
+Nicaragua.png Nicaragua	NIC	Recognized	Principality	Nicaragua	Central America	Central American	Catholic	No	No	Yes	Yes
+Niitsitapi.png Niitsitapi	BLF	Decentralized	Principality	Alberta	Great Plains	Siouan	Animist	Yes	No	No	No
+Nimíipuu.png Nimíipuu	NZP	Decentralized	Principality	Idaho	Pacific Coast	Nez Perce	Animist	Yes	No	No	No
+Noongar.png Noongar	NNG	Decentralized	Principality	Western Australia	Oceania	Aboriginal	Animist	Yes	No	No	No
+North Carolina.png North Carolina	NCR	Recognized	City-State	North Carolina	Dixie	Dixie	Protestant	No	No	Yes	No
+North German Federation.png North German Federation	NGF	Recognized	Kingdom	Brandenburg	North Germany	North German	Protestant	No	Yes	No	Yes
+North Peru.png North Peru	NPU	Recognized	Principality	Lima	The Andes	South Andean	Catholic	Yes	No	No	No
+Norway.png Norway	NOR	Recognized	Kingdom	Eastern Norway	Scandinavia	Norwegian	Protestant	Yes	No	Yes	No
+Nova Scotia.png Nova Scotia	NVS	Colonial	Principality	Maritimes	New England	Anglo-Canadian	Protestant	Yes	No	Yes	No
+Nuba.png Nuba	NBA	Decentralized	Principality	Equatoria	Nile	Nuba	Animist	No	No	No	No
+Nuer.png Nuer	NUE	Decentralized	Principality	Equatoria	Nile	Nuer	Animist	Yes	No	No	No
+Nueva España.png Nueva España	SC1	Colonial	Kingdom	México	Mexico	Spanish	Catholic	No	No	No	Yes
+Nueva Granada.png Nueva Granada	SC2	Colonial	Kingdom	Cundinamarca	Gran Colombia	Spanish	Catholic	No	No	No	Yes
+Nunavut.png Nunavut	NNV	Unrecognized	Principality	Nunavut	Canada	Inuit	Animist	No	No	Yes	No
+O’odham Country.png O’odham Country	CCM	Decentralized	Principality	Chihuahua	Mexico	O'odham	Animist	No	No	No	No
+Oaxaca.png Oaxaca	OAX	Decentralized	Principality	Oaxaca	Mexico	Zapotec, Mixtec	Catholic	No	No	No	No
+Occitania.png Occitania	OCC	Recognized	Principality	Languedoc	Occitania	Occitan	Catholic	No	No	Yes	No
+Ogaden.png Ogaden	OGD	Decentralized	Principality	Oromia	Ethiopia	Somali	Sunni	Yes	No	No	No
+Oldenburg.png Oldenburg	OLD	Recognized	Grand Princ.	Hanover	North Germany	North German	Protestant	Yes	No	Yes	No
+Oman.png Oman	OMA	Unrecognized	Kingdom	Oman	Arabia	Bedouin	Ibadi	Yes	No	Yes	No
+Omo.png Omo	OMO	Decentralized	Principality	Amhara	Ethiopia	Sidama	Animist	Yes	No	No	No
+Ontario.pngOntario
+Other names: Upper Canada	ONT	Colonial	Principality	Ontario	Canada	Anglo-Canadian	Protestant	Yes	No	Yes	No
+Oranje.pngOranje
+Other names:	ORA	Unrecognized	Principality	Transorangia	Southern Africa	Boer	Protestant	Yes	No	No	No
+Orchha.png Orchha	BUN	Unrecognized	Principality	Bundelkhand	Central India	Bundeli	Hindu	Yes	No	No	No
+Oregon.pngOregon
+Other names:	ORG	Colonial	Principality	Oregon	Pacific Coast	Yankee, Anglo-Canadian	Protestant	Yes	No	Yes	No
+Orinoco.png Orinoco	ORN	Decentralized	Principality	Miranda	Gran Colombia	Cariban	Animist	No	No	No	No
+Orissa.png Orissa	ORI	Unrecognized	Kingdom	Orissa	Bengal	Oria	Hindu	No	Yes	Yes	No
+Orma.png Orma	ORM	Decentralized	Principality	Kenya	Zanj	Oromo	Animist	Yes	No	No	No
+Orta Zhuz.png Orta Zhuz	OZH	Unrecognized	Principality	Semipalatinsk	Central Asia	Kazakh	Sunni	Yes	No	Yes	No
+Ovambo.png Ovambo	OVB	Decentralized	Principality	Hereroland	Southern Africa	Kavango Bantu	Animist	Yes	No	No	No
+Ovimbundu.png Ovimbundu	OVM	Decentralized	Principality	South Angola	Congo	Ovimbundu	Animist	Yes	No	No	No
+Oyo.png Oyo	OYO	Unrecognized	Principality	Yoruba States	Niger	Yoruba	Animist	Yes	No	No	No
+Pakistan.png Pakistan	PAK	Unrecognized	Empire	Sindh	Bombay	Kashmiri, Punjabi, Sindi, Baluchi, Pashtun	Sunni	No	Yes	No	No
+Palanpur.png Palanpur	PLP	Unrecognized	Principality	Gujarat	Bombay	Gujarati, Pathan	Sunni	Yes	No	Yes	No
+Palestine.png Palestine	PAL	Unrecognized	Principality	Palestine	Arabia	Mashriqi	Sunni	No	No	Yes	No
+Panama.png Panama	PNM	Recognized	Principality	Panama	Central America	Central American	Catholic	No	No	Yes	No
+Pannakwati.png Pannakwati	BNN	Decentralized	Principality	Idaho	Pacific Coast	Paiute	Animist	Yes	No	No	No
+Papua.png Papua	PPU	Decentralized	Principality	Eastern New Guinea	Indonesia	Melanesian	Animist	Yes	No	No	No
+Paraguay.png Paraguay	PRG	Recognized	Principality	Bajo Paraguay	La Plata	Platinean, Guarani	Catholic	Yes	No	Yes	No
+Paris Commune.png Paris Commune	PRC	Recognized	Empire	Île-de-France	France	French	Catholic	No	No	No	Yes
+Parma.png Parma	PAR	Recognized	Principality	Emilia	Italy	North Italian	Catholic	Yes	No	Yes	No
+Patiala.png Patiala	PTA	Unrecognized	Principality	Punjab Hills	Delhi	Punjabi	Sikh	Yes	No	Yes	No
+Patna.png Patna	PTN	Unrecognized	Principality	Orissa	Bengal	Oria	Hindu	Yes	No	Yes	No
+Paulistânia.png Paulistânia	PAU	Recognized	Principality	São Paulo	Brazil	Paulista	Catholic	No	No	Yes	No
+Pawnee.png Pawnee	PWN	Decentralized	Principality	Nebraska	Great Plains	Caddoan	Animist	Yes	No	No	No
+Pedi.png Pedi	PDI	Decentralized	Principality	Transvaal	Southern Africa	Sotho	Animist	Yes	No	No	No
+Perak.png Perak	PRK	Unrecognized	Principality	Malaya	Indochina	Malay	Sunni	Yes	No	Yes	No
+Perm.png Perm	PRM	Unrecognized	Principality	Perm	Urals	Ugrian	Animist	No	No	No	No
+Persia.pngPersia
+Other names: Iran	PER	Unrecognized	Empire	Irak-i-Ajami	Persia	Persian	Shiite	Yes	No	Yes	No
+Peru-Bolivia.png Peru-Bolivia	PBC	Recognized	Empire	La Paz	The Andes	South Andean	Catholic	No	No	No	Yes
+Peru.png Peru	PEU	Recognized	Kingdom	Lima	The Andes	South Andean	Catholic	No	Yes	Yes	Yes
+Perú.png Perú	SC3	Colonial	Kingdom	Lima	The Andes	Spanish	Catholic	No	No	No	Yes
+Philippines.png Philippines	PHI	Colonial	Kingdom	Luzón	Indonesia	Filipino Mestizo, Tagalog, Ilocano, Visayan
+Information Starts with Spanish	Catholic	Yes	No	Yes	No
+Philippolis.pngPhilippolis
+Other names:	PHL	Unrecognized	Principality	Transorangia	Southern Africa	Griqua	Protestant	Yes	No	No	No
+Piratini.pngPiratini
+Other names:	PNI	Recognized	Principality	Rio Grande do Sul	Brazil	Sulista	Catholic	Yes	No	Yes	No
+Poland-Lithuania.pngPoland-Lithuania
+Other names: Commonwealth	PLC	Recognized	Empire	West Galicia	Poland	Polish, Lithuanian	Catholic	No	Yes	No	No
+Poland.pngPoland
+Other names: Congress Poland	POL	Recognized	Kingdom	Warszawa	Poland	Polish	Catholic	No	Yes	Yes	No
+Polynesia.pngPolynesia
+Other names:	PNS	Unrecognized	Empire	Hawaiian Islands	Oceania	Hawaiian, Māori, Melanesian, Polynesian, Micronesian, Yuanzhumin	Protestant	No	Yes	No	No
+Pomerania.png Pomerania	POM	Recognized	Principality	Pomerania	North Germany	North German	Protestant	No	No	Yes	No
+Pontianak.pngPontianak
+Other names: Kalimantan	PON	Unrecognized	Principality	West Borneo	Indonesia	Bornean	Sunni	Yes	No	Yes	No
+Portugal.pngPortugal
+Other names: United Kingdom	POR	Recognized	Kingdom	Estremadura	Iberia	Portuguese	Catholic	Yes	No	Yes	No
+Prussia.png Prussia	PRU	Recognized	Kingdom	Brandenburg	North Germany	North German	Protestant	Yes	Yes	Yes	No
+Pudukottai.png Pudukottai	PUD	Unrecognized	Principality	Carnatic	Madras	Tamil	Hindu	Yes	No	Yes	No
+Pueblo.png Pueblo	PUE	Unrecognized	Principality	New Mexico	Great Plains	Pueblo	Animist	No	No	Yes	No
+Puerto Rico.png Puerto Rico	PCO	Colonial	Principality	Porto Rico	Caribbean	Caribeño	Catholic	Yes	No	Yes	No
+Punjab.pngPunjab
+Other names: Khalsa Raj	PAN	Unrecognized	Kingdom	Punjab	Delhi	Punjabi	Sikh	Yes	Yes	Yes	Yes
+Qian.png Qian	QIA	Unrecognized	Principality	Western Guangdong	South China	Miao	Animist	No	No	Yes	No
+Quebec.pngQuebec
+Other names: Lower Canada	QUE	Colonial	Principality	Quebec	Canada	Franco-Canadian	Catholic	Yes	No	Yes	No
+Qwara.png Qwara	QWR	Unrecognized	Principality	Gonder	Ethiopia	Amhara	Oriental Orthodox	Yes	No	Yes	No
+Rajputana.png Rajputana	RAJ	Unrecognized	Kingdom	Rajputana	Delhi	Rajput	Hindu	No	Yes	No	No
+Reguibat.png Reguibat	RGB	Decentralized	Principality	West Sahara	North Africa	Bidan	Sunni	Yes	No	No	No
+Rewah.png Rewah	BAG	Unrecognized	Principality	Bundelkhand	Central India	Bageli	Hindu	Yes	No	Yes	No
+Rhineland.png Rhineland	RHE	Recognized	Principality	North Rhine	Rhine	North German	Protestant	No	No	Yes	No
+Río de la Plata.png Río de la Plata	SC4	Colonial	Kingdom	Buenos Aires	La Plata	Spanish	Catholic	No	No	No	Yes
+Rio de la Plata.pngRio de la Plata
+Other names:	PLT	Recognized	Empire	Buenos Aires	La Plata	Platinean	Catholic	No	Yes	No	No
+Río Grande.png Río Grande	RIO	Recognized	Principality	Río Grande	Mexico	Mexican	Catholic	No	No	Yes	No
+Romania.png Romania	ROM	Recognized	Kingdom	Wallachia	Danubia	Romanian	Orthodox	No	Yes	Yes	No
+Rome.pngRome
+Other names:	PAP	Recognized	Kingdom	Lazio	Italy	South Italian, North Italian	Catholic	Yes	No	Yes	No
+Russia.pngRussia
+Other names:	RUS	Recognized	Empire	Ingria	Russia	Russian	Orthodox	Yes	Yes	Yes	No
+Rwanda.png Rwanda	RWD	Unrecognized	Principality	Tanganyika	Zanj	Ruanda	Animist	Yes	No	No	No
+Sahrawi.png Sahrawi	SAH	Decentralized	Principality	West Sahara	North Africa	Bidan	Sunni	No	No	No	No
+Sakhalin.png Sakhalin	SKH	Decentralized	Principality	Sakhalin	Japan	Ainu, Siberian	Animist	Yes	No	No	No
+Sakuye.png Sakuye	SKY	Decentralized	Principality	Kenya	Zanj	Oromo	Animist	Yes	No	No	No
+Sambas.pngSambas
+Other names: Kalimantan	SMB	Unrecognized	Principality	West Borneo	Indonesia	Bornean	Sunni	Yes	No	Yes	No
+San Marco.pngSan Marco
+Other names:	RSM	Recognized	Principality	Lombardy	Italy	North Italian	Catholic	No	No	No	Yes
+San.png San	SAN	Decentralized	Principality	Botswana	Southern Africa	Khoisan	Animist	Yes	No	No	No
+Sangu.png Sangu	SNG	Decentralized	Principality	Rufiji	Zanj	Lacustrine Bantu	Animist	Yes	No	No	No
+Santa Catarina.pngSanta Catarina
+Other names:	CTR	Recognized	Principality	Santa Catarina	Brazil	Sulista	Catholic	No	No	Yes	Yes
+Santo Domingo.png Santo Domingo	DOM	Recognized	Principality	Santo Domingo	Caribbean	Caribeño, Afro-Caribeño	Catholic	No	No	Yes	No
+Sapmi.png Sapmi	SMI	Unrecognized	City-State	Northern Norway	Scandinavia	Sámi	Protestant	No	No	Yes	No
+Sara.png Sara	SRA	Decentralized	Principality	Ubangi-Shari	Congo	Sara	Animist	No	No	No	No
+Sardinia-Piedmont.png Sardinia-Piedmont	SAR	Recognized	Kingdom	Piedmont	Italy	North Italian	Catholic	Yes	No	Yes	No
+Satara.png Satara	SAT	Unrecognized	Principality	Bombay	Bombay	Marathi	Hindu	Yes	No	Yes	Yes
+Savoy.pngSavoy
+Other names: Lyon, Romandy	SAV	Recognized	Principality	Savoy	Occitania	Franco-Provençal	Catholic	No	No	Yes	No
+Saxe-Coburg-Gotha.png Saxe-Coburg-Gotha	COB	Recognized	Principality	Saxony	North Germany	North German	Protestant	Yes	No	Yes	No
+Saxe-Meiningen.png Saxe-Meiningen	MEI	Recognized	Principality	Saxony	North Germany	North German	Protestant	Yes	No	Yes	No
+Saxe-Weimar.png Saxe-Weimar	WEI	Recognized	Grand Princ.	Saxony	North Germany	North German	Protestant	Yes	No	Yes	No
+Saxony.png Saxony	SAX	Recognized	Kingdom	Saxony	North Germany	North German	Protestant	Yes	No	Yes	No
+Scandinavia.pngScandinavia
+Other names:	SCA	Recognized	Empire	Svealand	Scandinavia	Swedish, Norwegian, Danish, Icelandic	Protestant	No	Yes	No	No
+Scania.png Scania	SCN	Recognized	Principality	Scania	Scandinavia	Swedish	Protestant	No	No	Yes	No
+Schaumburg-Lippe.png Schaumburg-Lippe	SCM	Recognized	Principality	Westphalia	Rhine	North German	Protestant	Yes	No	Yes	No
+Schleswig.pngSchleswig
+Other names: Schleswig-Holstein	SCH	Recognized	Principality	Schleswig-Holstein	North Germany	North German, Danish	Protestant	Yes	No	Yes	No
+Schwarzburg.png Schwarzburg	SCW	Recognized	Principality	Saxony	North Germany	North German	Protestant	Yes	No	Yes	No
+Scotland.png Scotland	SCO	Recognized	Kingdom	Lowlands	North Sea	Scottish, Gael	Protestant	No	No	Yes	No
+Segou.png Segou	SGU	Unrecognized	Principality	Western Mali	Senegal	Bambara	Animist	Yes	No	No	No
+Selangor.png Selangor	SEL	Unrecognized	Principality	Malaya	Indochina	Malay	Sunni	Yes	No	Yes	No
+Séliš.png Séliš	SLS	Decentralized	Principality	Salish	Great Plains	Salish	Animist	Yes	No	No	No
+Selk’nam.png Selk’nam	SLK	Decentralized	Principality	Araucania	La Plata	Patagonian	Animist	Yes	No	No	No
+Sena.png Sena	SNA	Decentralized	Principality	Mocambique	Zanj	Sena	Animist	No	No	No	No
+Serbia.pngSerbia
+Other names: Serbia and Montenegro	SER	Recognized	Kingdom	Weestern Serbia	Balkans	Serbian	Orthodox	Yes	No	Yes	Yes
+Serer.png Serer	SRR	Decentralized	Principality	Senegal	Senegal	Fulbe	Animist	Yes	No	No	No
+Shan.pngShan
+Other names:	SHS	Unrecognized	Principality	Shan States	Indochina	Shan	Theravada	Yes	No	No	Yes
+Shandong.pngShandong
+Other names: Shandong Clique	SHA	Unrecognized	Kingdom	Shandong	North China	Han	Confucian	No	No	Yes	Yes
+Shanxi.pngShanxi
+Other names: Shanxi Clique	SHN	Unrecognized	Kingdom	Shanxi	North China	Han	Confucian	No	No	Yes	Yes
+Shewa.png Shewa	SHW	Unrecognized	Principality	Oromia	Ethiopia	Amhara, Oromo	Oriental Orthodox	Yes	No	No	No
+Siak.pngSiak
+Other names: Sumatra	SAK	Unrecognized	Principality	North Sumatra	Indonesia	Sumatran	Sunni	Yes	No	Yes	No
+Siam.png Siam	SIA	Unrecognized	Kingdom	Bangkok	Indochina	Thai	Theravada	Yes	No	Yes	No
+Siberia.pngSiberia
+Other names: Cyberia	SIB	Unrecognized	Kingdom	Tomsk	West Siberia	Yakut, Siberian, Inuit, Buryat	Orthodox	No	No	Yes	No
+Sichuan.pngSichuan
+Other names: Sichuan Clique	SIH	Unrecognized	Kingdom	Sichuan	South China	Han	Confucian	No	No	Yes	Yes
+Sidamo.png Sidamo	SDM	Unrecognized	Principality	Amhara	Ethiopia	Sidama	Oriental Orthodox	Yes	No	No	No
+Sierra Leone.pngSierra Leone
+Other names: British West Africa	SIL	Colonial	Principality	Sierra Leone	Senegal	English	Protestant	Yes	No	No	No
+Sikkim.png Sikkim	SIK	Unrecognized	Principality	Eastern Himalayas	Himalayas	Tibetan	Gelugpa	Yes	No	Yes	No
+Sindh.png Sindh	SIN	Unrecognized	Principality	Sindh	Bombay	Sindi	Sunni	Yes	No	Yes	Yes
+Sintang.pngSintang
+Other names: Kalimantan	STG	Unrecognized	Principality	West Borneo	Indonesia	Bornean	Sunni	Yes	No	Yes	No
+Sip Song Chau Tai.png Sip Song Chau Tai	SCT	Decentralized	Principality	Tonkin	Indochina	Lao	Animist	Yes	No	No	No
+Slovakia.png Slovakia	SLV	Recognized	Principality	West Slovakia	Danubia	Slovak	Catholic	No	No	Yes	Yes
+Slovenia.png Slovenia	SLO	Recognized	Principality	Slovenia	Balkans	Slovene	Catholic	No	No	Yes	No
+Sokoto.png Sokoto	SOK	Unrecognized	Kingdom	Hausaland	Niger	Hausa, Fulbe	Sunni	Yes	No	No	No
+Sorbia.png Sorbia	SRB	Recognized	Principality	Saxony	North Germany	Sorb	Catholic	No	No	Yes	No
+South Africa.pngSouth Africa
+Other names:	SAF	Colonial	Kingdom	Cape Colony	Southern Africa	English	Protestant	Yes	No	Yes	No
+South Australia.png South Australia	SAS	Colonial	Principality	South Australia	Oceania	Australian	Protestant	Yes	No	No	No
+South Carolina.png South Carolina	SCR	Recognized	City-State	South Carolina	Dixie	Dixie	Protestant	No	No	Yes	No
+South German Federation.png South German Federation	SGF	Recognized	Kingdom	Bavaria	South Germany	South German	Catholic	No	Yes	No	Yes
+South Peru.png South Peru	SPU	Recognized	Principality	Ica	The Andes	South Andean	Catholic	Yes	No	No	No
+Spain.pngSpain
+Other names: Spanish Republic	SPA	Recognized	Kingdom	New Castile	Iberia	Spanish	Catholic	Yes	Yes	Yes	Yes
+Sri Lanka.png Sri Lanka	CEY	Unrecognized	Principality	Ceylon	Madras	Sinhala	Theravada	No	No	Yes	Yes
+Sudan.pngSudan
+Other names: Mahdist State, Funj	SUD	Unrecognized	Kingdom	Blue Nile	Nile	Sudanese, Beja, Bedouin	Sunni	No	No	Yes	No
+Sulawesi.png Sulawesi	SLW	Decentralized	Principality	Celebes	Indonesia	Moluccan	Sunni	Yes	No	No	No
+Sulu.png Sulu	SUL	Unrecognized	Principality	Mindanao	Indonesia	Moro	Sunni	Yes	No	Yes	No
+Surakarta.pngSurakarta
+Other names: Mataram	SRK	Unrecognized	Principality	Central Java	Indonesia	Javan	Sunni	Yes	No	Yes	No
+Surguja.png Surguja	SUR	Unrecognized	Principality	Bundelkhand	Central India	Chhattisgarhi	Hindu	Yes	No	Yes	No
+Susu.png Susu	SSU	Decentralized	Principality	Guinea	Senegal	Mande	Sunni	Yes	No	No	No
+Swat.png Swat	SWT	Unrecognized	Principality	Pashtunistan	India	Pashtun	Sunni	No	No	No	Yes
+Swaziland.png Swaziland	SWZ	Unrecognized	Principality	Transvaal	Southern Africa	Nguni	Animist	Yes	No	No	No
+Sweden.png Sweden	SWE	Recognized	Kingdom	Svealand	Scandinavia	Swedish	Protestant	Yes	Yes	Yes	No
+Switzerland.png Switzerland	SWI	Recognized	Kingdom	West Switzerland	South Germany	Alemannic, Franco-Provençal	Protestant	Yes	No	Yes	No
+Syria.png Syria	SYR	Unrecognized	Principality	Syria	Arabia	Mashriqi	Sunni	No	No	Yes	Yes
+Tagant.png Tagant	OUA	Decentralized	Principality	Inner Mauritania	Senegal	Bidan	Sunni	Yes	No	No	No
+Tahiti.png Tahiti	PLY	Unrecognized	Principality	Tahiti	Oceania	Polynesian	Protestant	Yes	No	No	No
+Tajikistan.png Tajikistan	TJI	Recognized	Grand Princ.	Tajikistan	Central Asia	Tajik	Sunni	No	Yes	Yes	No
+Tasmania.pngTasmania
+Other names: Van Dieman’s Land	TAS	Colonial	Principality	Victoria	Oceania	Australian	Protestant	Yes	No	No	No
+Tatarstan.png Tatarstan	TAR	Recognized	Principality	Kazan	Urals	Tatar	Sunni	No	No	Yes	No
+Tawantinsuyu.png Tawantinsuyu	TWT	Unrecognized	Kingdom	Lima	The Andes	Quechua	Catholic	No	Yes	Yes	No
+Tehuelche.png Tehuelche	THL	Decentralized	Principality	Patagonia	La Plata	Patagonian	Animist	Yes	No	No	No
+Teke.png Teke	TKE	Decentralized	Principality	Congo	Congo	Bakongo	Animist	Yes	No	No	No
+Tekna.png Tekna	TEK	Decentralized	Principality	Inner Morocco	North Africa	Bidan	Sunni	Yes	No	No	No
+Temne.png Temne	TMN	Decentralized	Principality	Sierra Leone	Senegal	Kissi	Animist	Yes	No	No	No
+Texas.png Texas	TEX	Recognized	Principality	Texas	Dixie	Dixie	Protestant	Yes	No	Yes	No
+Tibet.png Tibet	TIB	Unrecognized	Kingdom	Lhasa	Himalayas	Tibetan	Gelugpa	Yes	No	Yes	No
+Tidore.png Tidore	TID	Unrecognized	Principality	Moluccas	Indonesia	Moluccan	Sunni	Yes	No	Yes	No
+Tigray.png Tigray	TGR	Unrecognized	Principality	Amhara	Ethiopia	Tigray, Amhara	Oriental Orthodox	Yes	No	Yes	No
+Tipperah.png Tipperah	TIP	Decentralized	Principality	Assam	Bengal	Lushai	Animist	Yes	No	No	No
+Tiris.png Tiris	TIR	Decentralized	Principality	Mauritania	Senegal	Haratin	Sunni	No	No	No	No
+Tivland.png Tivland	TIV	Decentralized	Principality	Nigeria	Niger	Tiv	Animist	No	No	No	No
+Toba.png Toba	TOB	Unrecognized	Principality	North Sumatra	Indonesia	Batak	Animist	No	No	Yes	No
+Tonga.png Tonga	TNG	Decentralized	Principality	Tonga	Oceania	Polynesian	Animist	Yes	No	No	No
+Toposa.png Toposa	TPS	Decentralized	Principality	Equatoria	Nile	Nilotic	Animist	Yes	No	No	No
+Touggourt.png Touggourt	TUG	Unrecognized	Principality	East Sahara	North Africa	Amazigh	Sunni	Yes	No	No	No
+Transcaucasia.png Transcaucasia	CAU	Recognized	Empire	Tiflis	Caucasus	Azerbaijani, Armenian, Georgian	Shiite	No	Yes	Yes	Yes
+Transvaal.pngTransvaal
+Other names:	TRN	Unrecognized	Principality	Transvaal	Southern Africa	Boer	Protestant	Yes	No	No	No
+Transylvania.png Transylvania	TRS	Recognized	Principality	Southern Transylvania	Danubia	Szekler, Hungarian, Romanian, South German
+Information Starts without Romanian	Catholic	Yes	No	Yes	Yes
+Trarza.png Trarza	TRZ	Decentralized	Principality	Mauritania	Senegal	Bidan	Sunni	Yes	No	No	No
+Travancore.png Travancore	TRA	Unrecognized	Principality	Malabar	Madras	Malayalam	Hindu	Yes	No	Yes	No
+Trieste.png Trieste	TRE	Recognized	Principality	Istria	Italy	North Italian	Catholic	No	No	Yes	No
+Tripolitania.png Tripolitania	TRI	Unrecognized	Principality	Tripoli	North Africa	Maghrebi	Sunni	Yes	No	Yes	Yes
+Trucial States.png Trucial States	ABU	Unrecognized	Principality	Trucial Coast	Arabia	Bedouin	Sunni	Yes	No	Yes	No
+Tswana.pngTswana
+Other names:	TSW	Decentralized	Principality	Botswana	Southern Africa	Tswana	Animist	Yes	No	No	No
+Tuat.png Tuat	TUA	Decentralized	Principality	Sahara	North Africa	Amazigh	Sunni	Yes	No	No	No
+Tubu.png Tubu	TBI	Decentralized	Principality	Chad	Niger	Tubu	Sunni	Yes	No	No	No
+Tungi.png Tungi	TGI	Unrecognized	Principality	Mocambique	Zanj	Swahili	Sunni	Yes	No	No	No
+Tungus.png Tungus	TNS	Unrecognized	Principality	Upper Yeniseysk	West Siberia	Siberian	Animist	No	No	Yes	No
+Tunis.pngTunis
+Other names: Tunisia	TUN	Unrecognized	Kingdom	Tunisia	North Africa	Maghrebi	Sunni	Yes	No	Yes	Yes
+Tupinamba.png Tupinamba	TPI	Decentralized	Principality	Bahia	Brazil	Tupinamba	Animist	No	No	No	No
+Turkana.png Turkana	TRK	Decentralized	Principality	Rift Valley	Zanj	Nilotic, Maasai	Animist	Yes	No	No	No
+Turkestan.png Turkestan	TRH	Unrecognized	Empire	Uzbekia	Central Asia	Uzbek, Kyrgyz, Kazakh, Turkmen, Tajik, Uighur	Sunni	No	Yes	Yes	No
+Turkey.pngTurkey
+Other names: Ottoman Empire	TUR	Recognized	Empire	Eastern Thrace	Anatolia	Turkish	Sunni	Yes	No	Yes	No
+Turkmenia.png Turkmenia	TRM	Decentralized	Principality	Turkmenia	Central Asia	Turkmen	Sunni	Yes	No	No	No
+Turkmenistan.png Turkmenistan	TRC	Recognized	Principality	Turkmenia	Central Asia	Turkmen	Sunni	No	No	Yes	No
+Turtle Island.pngTurtle Island
+Other names: Great Turtle	TIS	Unrecognized	Empire	Oklahoma	Dixie	Cherokee, Iroquoian, Siouan	Protestant	No	No	No	Yes
+Tuscany.pngTuscany
+Other names: Etruria	TUS	Recognized	Principality	Tuscany	Italy	North Italian	Catholic	Yes	No	Yes	No
+Tuva.png Tuva	TUV	Unrecognized	Principality	Tuva	West Siberia	Tuvan	Gelugpa	No	No	Yes	Yes
+Two Sicilies.pngTwo Sicilies
+Other names: Sicily, Naples	SIC	Recognized	Kingdom	Campania	Italy	South Italian	Catholic	Yes	No	Yes	No
+Udmurtia.png Udmurtia	UDM	Recognized	Principality	Vyatka	Urals	Udmurt	Orthodox	No	No	Yes	No
+Ukraine.pngUkraine
+Other names: Free Territory	UKR	Recognized	Kingdom	Kyiv	Dnieper	Ukrainian	Orthodox	No	No	Yes	No
+Ulster.png Ulster	ULS	Recognized	Principality	Ulster	North Sea	Scottish, Irish	Protestant	No	No	Yes	No
+Uluru.png Uluru	ULR	Decentralized	Principality	Northern Territory	Oceania	Aboriginal	Animist	No	No	No	No
+Uly Zhuz.png Uly Zhuz	UZH	Unrecognized	Principality	Akmolinsk	Central Asia	Kazakh	Sunni	Yes	No	No	No
+United Baltic Provinces.pngUnited Baltic Provinces
+Other names: Baltic Governorates	UBD	Recognized	Grand Princ.	South Livonia	Livonia	Latvian, Estonian, Lithuanian
+Information Starts with East German and Russian	Protestant	Yes	Yes	Yes	No
+United Netherlands.pngUnited Netherlands
+Other names: Burgundy	UNL	Recognized	Empire	Holland	Rhine	Dutch, Flemish, Wallonian	Protestant	No	Yes	No	No
+United Tribes.png United Tribes	UNT	Unrecognized	Principality	North Island	Oceania	Māori	Protestant	Yes	No	No	No
+Unyamwezi.png Unyamwezi	NYM	Decentralized	Principality	Tanganyika	Zanj	Nyamwezi	Animist	Yes	No	No	No
+Ural.png Ural	URL	Recognized	Principality	Ural	Urals	Russian	Orthodox	No	No	Yes	No
+Uruguay.pngUruguay
+Other names:	URU	Recognized	Principality	Uruguay	Brazil	Platinean	Catholic	Yes	No	Yes	No
+Usukuma.png Usukuma	SKM	Decentralized	Principality	Tanganyika	Zanj	Sukuma	Sunni	Yes	No	No	No
+Ute.png Ute	UTE	Decentralized	Principality	Utah	Pacific Coast	Paiute	Animist	Yes	No	No	No
+Utetera.png Utetera	UTR	Unrecognized	Principality	Lualaba	Congo	Swahili	Ibadi	No	No	No	Yes
+Uyao.png Uyao	UYA	Decentralized	Principality	Mocambique	Zanj	Yao	Animist	No	No	No	No
+Uyghuristan.pngUyghuristan
+Other names: Xinjiang Clique	XIN	Unrecognized	Kingdom	Tarim Basin	Central Asia	Uighur	Sunni	No	No	Yes	Yes
+Uzbekistan.png Uzbekistan	UZB	Recognized	Grand Princ.	Fergana	Central Asia	Uzbek	Sunni	No	Yes	Yes	No
+Vanuatu.png Vanuatu	VNT	Decentralized	Principality	Vanuatu	Oceania	Melanesian	Animist	Yes	No	No	No
+Venda.png Venda	VND	Decentralized	Principality	Transvaal	Southern Africa	Sotho	Animist	Yes	No	No	No
+Venezuela.pngVenezuela
+Other names: Klein-Venedig	VNZ	Recognized	Kingdom	Miranda	Gran Colombia	North Andean	Catholic	Yes	No	Yes	No
+Venice.pngVenice
+Other names:	VEN	Recognized	Principality	Venetia	Italy	North Italian	Catholic	No	No	Yes	Yes
+Vientiane.png Vientiane	VIE	Unrecognized	Principality	Laos	Indochina	Lao	Theravada	No	No	Yes	No
+Wadai.png Wadai	WAD	Unrecognized	Principality	Waddai	Niger	Fur	Sunni	Yes	No	Yes	No
+Waldeck.png Waldeck	WLD	Recognized	Principality	Hesse	North Germany	North German	Protestant	Yes	No	Yes	No
+Wales.pngWales
+Other names: Y Wladfa	WLS	Recognized	Principality	Wales	England	Welsh	Protestant	No	No	Yes	No
+Wallachia.pngWallachia
+Other names:	WAL	Recognized	Principality	Wallachia	Danubia	Romanian	Orthodox	Yes	No	Yes	Yes
+Wallonia.png Wallonia	WLL	Recognized	Principality	Wallonia	Rhine	Wallonian	Catholic	No	No	Yes	No
+Warsangali.png Warsangali	WSG	Unrecognized	Principality	Somaliland	Ethiopia	Somali	Sunni	Yes	No	No	No
+Wati.png Wati	WTI	Decentralized	Principality	Western Australia	Oceania	Aboriginal	Animist	Yes	No	No	No
+Wayuu.png Wayuu	WYU	Decentralized	Principality	Antioquia	Gran Colombia	Guajiro	Catholic	No	No	No	No
+Welega.png Welega	WLG	Unrecognized	Principality	Amhara	Ethiopia	Oromo	Oriental Orthodox	Yes	No	No	No
+Wello.png Wello	WLO	Unrecognized	Principality	Amhara	Ethiopia	Amhara	Oriental Orthodox	No	No	Yes	No
+West Indies.png West Indies	WIN	Recognized	Kingdom	West Indies	Caribbean	Afro-Caribbean	Protestant	No	Yes	Yes	No
+Western Australia.png Western Australia	WAS	Colonial	Principality	Western Australia	Oceania	Australian	Protestant	Yes	No	No	No
+Westphalia.png Westphalia	WES	Recognized	Principality	Westphalia	Rhine	North German	Protestant	No	No	Yes	No
+Witu.png Witu	WTU	Unrecognized	Principality	Kenya	Zanj	Swahili	Sunni	Yes	No	No	No
+Wolaita.png Wolaita	WLT	Unrecognized	Principality	Amhara	Ethiopia	Sidama	Oriental Orthodox	Yes	No	No	No
+Württemberg.png Württemberg	WUR	Recognized	Kingdom	Württemberg	South Germany	South German	Protestant	Yes	No	Yes	No
+Xhosa.png Xhosa	XHO	Decentralized	Principality	Eastern Cape	Southern Africa	Xhosa	Animist	No	No	No	No
+Xibei.png Xibei	XIB	Unrecognized	Kingdom	Ningxia	North China	Han, Tibetan	Confucian	No	No	Yes	Yes
+Yaka.png Yaka	YKA	Decentralized	Principality	Lower Congo	Congo	Bakongo, Lunda	Animist	Yes	No	No	No
+Yakutia.png Yakutia	YAK	Unrecognized	Principality	Yakutsk	East Siberia	Yakut	Orthodox	No	No	Yes	No
+Yat’siminoli.png Yat’siminoli	SML	Decentralized	Principality	Florida	Dixie	Muskogean	Protestant	Yes	No	No	No
+Yemen.png Yemen	YEM	Unrecognized	Kingdom	Yemen	Arabia	Yemenite, Bedouin	Shiite	No	Yes	Yes	No
+Yogyakarta.pngYogyakarta
+Other names: Mataram	YOG	Unrecognized	Principality	Central Java	Indonesia	Javan	Sunni	Yes	No	Yes	No
+Yuanzhumin.png Yuanzhumin	YUZ	Unrecognized	Principality	Formosa	South China	Yuanzhumin	Animist	No	No	Yes	No
+Yucatán.png Yucatán	YUC	Recognized	Principality	Yucatán	Central America	Mexican	Catholic	No	No	Yes	No
+Yue.pngYue
+Other names: Guangdong Clique	YUE	Unrecognized	Principality	Western Guangdong	South China	Yue	Confucian	No	No	Yes	Yes
+Yugoslavia.pngYugoslavia
+Other names: Illyria	YUG	Recognized	Empire	Western Serbia	Balkans	Serbian, Croatian, Slovene, Bosniak, Bulgarian	Orthodox	No	Yes	Yes	No
+Yunnan.pngYunnan
+Other names: Yunnan Clique	YUN	Unrecognized	Principality	Yunnan	South China	Yi	Animist	No	No	Yes	Yes
+Zanzibar.png Zanzibar	ZAN	Unrecognized	Principality	Zanzibar	Zanj	Swahili	Sunni	No	No	Yes	Yes
+Zhili.pngZhili
+Other names: Zhili Clique	ZHI	Unrecognized	Kingdom	Hebei	North China	Han	Confucian	No	No	Yes	Yes
+Zimbabwe.png Zimbabwe	ZIM	Unrecognized	Kingdom	Zambezia	Zanj	Shona, Nguni	Animist	No	Yes	Yes	No
+Zulu.png Zulu	ZUL	Unrecognized	Kingdom	Zululand	Southern Africa	Zulu	Animist	Yes	No	No	No
+Zuwayya.png Zuwayya	ZWY	Decentralized	Principality	Cyrenaica	North Africa	Bedouin	Sunni	Yes	No	No	No
