@@ -49,7 +49,7 @@
             activate_law = law_type:law_professional_army
             add_prestige = 50 # Visual debug confirmation
             
-            # Modificador "Impulso Imperial" por 20 años
+            # Modificador "Impulso Imperial" por años
             add_modifier = {
                 name = usa_imperial_impulse
                 months = 140

@@ -25,6 +25,12 @@ force_historical_arg_borders = {
         # Cambiar ley a Ejército Profesional
         c:ARG = {
             activate_law = law_type:law_professional_army
+
+            # Modificador "Impulso Imperial" por años
+            add_modifier = {
+                name = usa_imperial_impulse
+                months = 60
+            }
         }
     }
     

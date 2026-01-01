@@ -1,8 +1,6 @@
 usa_imperial_impulse = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
     
-    army_size_modifier = 0.25
-    navy_size_modifier = 0.25
-    building_military_construction_speed_mult = 0.15
-    ai_aggression_modifier = 25
+    country_legitimacy_base_add = 100
+
 }
