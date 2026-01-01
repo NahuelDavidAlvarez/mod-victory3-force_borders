@@ -47,12 +47,12 @@
         # Cambiar ley a Ejército Profesional
         c:USA = {
             activate_law = law_type:law_professional_army
-            add_prestige = 500 # Visual debug confirmation
+            add_prestige = 50 # Visual debug confirmation
             
             # Modificador "Impulso Imperial" por 20 años
             add_modifier = {
                 name = usa_imperial_impulse
-                months = 160
+                months = 140
             }
         }
     }
