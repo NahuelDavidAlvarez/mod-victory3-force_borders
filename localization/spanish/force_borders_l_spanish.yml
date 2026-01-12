@@ -4,6 +4,10 @@
   force_historical_usa_borders_tooltip: "Anexiona Texas, California, el Suroeste, el Noroeste y las Grandes Llanuras, además de la CSA."
   force_historical_usa_borders_confirm: "¿Estás seguro de que deseas forzar las fronteras históricas de EEUU?"
 
+  impulse_buff: "Impulso Imperial"
+  impulse_buff_desc: "La nación mira hacia el exterior con una ambición renovada, lista para expandir su influencia mediante el acero y la pólvora."
+
+  force_historical_north_german_borders: "Forzar Confederación Alemana del Norte"
   force_historical_arg_borders: "Forzar Fronteras Históricas de Argentina"
   force_historical_arg_borders_desc: "Argentina fronteras históricas"
   force_historical_arg_borders_tooltip: "Anexiona todos los estados que históricamente pertenecen a la República Argentina."
@@ -18,3 +22,13 @@
   force_historical_ast_borders_desc: "Australia fronteras históricas"
   force_historical_ast_borders_tooltip: "Anexiona Nueva Gales del Sur, Victoria, Queensland, Australia Meridional/Occidental, Tasmania y el Territorio del Norte."
   force_historical_ast_borders_confirm: "¿Estás seguro de que deseas forzar las fronteras históricas de Australia?"
+
+  force_historical_usa_borders_two: "EE.UU: Esfera de Influencia"
+  force_historical_usa_borders_two_desc: "Naciones vecinas se convertirán automáticamente en marionetas de EE.UU."
+
+  force_historical_ita_borders: "Unificar Italia (Final Boss)"
+  force_historical_ita_borders_desc: "Une todos los estados italianos bajo una sola bandera y moderniza el país instantáneamente."
+
+  force_historical_per_bol_borders: "Fronteras Modernas: Perú y Bolivia"
+  force_historical_per_bol_borders_desc: "Establece las fronteras actuales de Perú y Bolivia, disolviendo la Confederación y modernizando ambas naciones."
+  force_historical_per_bol_borders_tooltip: "Unifica a Perú y Bolivia en sus fronteras actuales, asignando territorios en disputa a Chile, Argentina y Brasil para mayor realismo."

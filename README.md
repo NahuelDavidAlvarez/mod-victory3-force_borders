@@ -1,6 +1,15 @@
 # Guía de Desarrollo y Documentación Técnica - Mod Force Borders
 
-Este documento detalla el proceso técnico, los scripts y la lógica interna descubierta durante el desarrollo del mod **Force Borders** para Victoria 3.
+Este documento detalla el proceso técnico, los scripts y la lógica interna descubierta durante el desarrollo del mod **Force Borders** para Victoria 3. Para una referencia técnica profunda sobre triggers, effects y modificadores, consulta el [Compendio de Modding](file:///c:/Program%20Files%20%28x86%29/Steam/steamapps/common/mod/force_borders/docs/MODDING_COMPENDIUM.md).
+
+## Resumen de Funcionalidades (World Shaper)
+Este mod permite al jugador moldear el mapa global activando decisiones para las grandes potencias, sin importar con qué país estés jugando:
+- **España:** Fronteras históricas, leyes avanzadas y buff económico.
+- **Italia:** Unificación instantánea desde Cerdeña-Piamonte, anexión de estados irredentos y modernización.
+- **Prusia:** Formación de la Confederación Alemana del Norte y leyes de vanguardia.
+- **EE.UU:** Reclamos del Destino Manifiesto (Oeste y Suroeste) y creación de Esfera de Influencia (marionetas en México y Centroamérica).
+- **Perú y Bolivia:** Establece las fronteras actuales de ambas naciones simultáneamente, disuelve la Confederación y moderniza sus instituciones para el juego tardío.
+- **Argentina/Chile/Australia:** Consolidación de territorios históricos y modernización institucional.
 
 ## 1. El Problema de los IDs de Estados
 En Victoria 3, los nombres que ves en el mapa ("Mendoza", "Córdoba") **no coinciden** con los IDs internos que usa el código. Esto se debe a razones históricas del desarrollo del juego o decisiones de diseño.
@@ -8,7 +17,8 @@ En Victoria 3, los nombres que ves en el mapa ("Mendoza", "Córdoba") **no coinc
 **Ejemplos descubiertos:**
 *   **Visual:** "Mendoza" -> **Código:** `s:STATE_RIO_NEGRO`
 *   **Visual:** "Córdoba" -> **Código:** `s:STATE_LA_PAMPA`
-*   **Visual:** "La Pampa" -> **Código:** *Probablemente parte de otro estado mayor como Buenos Aires o Patagonia en 1836.*
+*   **Visual:** "Ica (Perú)" -> **Código:** `s:STATE_ICA`
+*   **Visual:** "La Paz (Bolivia)" -> **Código:** `s:STATE_LA_PAZ`
 
 Para crear decisiones de fronteras, es **obligatorio** usar el ID técnico (`s:STATE_...`), no el nombre visual.
 
@@ -103,6 +113,38 @@ Un error común es colocar los efectos fuera del bloque correcto.
     c:ARG = { activate_law = ... } # Esto queda flotando y el juego lo ignora o da error
     ```
 
+### 5.1 Activación Instantánea de Leyes
+Las decisiones permiten cambiar la estructura política de un país de forma inmediata sin pasar por el proceso de debate parlamentario.
+
+**Ejemplo implementado en USA:**
+```pdx
+c:USA = {
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_secret_police
+    activate_law = law_type:law_presidential_republic
+    activate_law = law_type:law_interventionism
+    activate_law = law_type:law_no_migration_controls
+}
+```
+*   **Nota Técnica:** Es fundamental usar el prefijo `law_type:` seguido del nombre técnico de la ley. Este método "fuerza" la ley sin generar la radicalización habitual de un cambio fallido en el gobierno.
+
+### 5.2 Creación de Súbditos (Pactos Diplomáticos)
+Para establecer el dominio sobre otras naciones, se utiliza el efecto `create_diplomatic_pact`.
+
+**Ejemplo implementado en USA (Esfera de Influencia):**
+```pdx
+if = {
+    limit = { exists = c:MEX }
+    create_diplomatic_pact = {
+        country = c:MEX
+        type = puppet  # Tipos: puppet, protectorate, dominion, etc.
+    }
+}
+```
+*   **Tags de Centroamérica:** En este proceso hemos mapeado los tags de la región: `MEX` (México), `VNZ` (Venezuela), `CLM` (Colombia), `PNM` (Panamá), `NIC` (Nicaragua), `COS` (Costa Rica), `HON` (Honduras), `GUA` (Guatemala), `ELS` (El Salvador) y `UCA` (Centroamérica).
+
 ## 6. Aprendizajes del Caso Australia (Conceptos Avanzados)
 Durante la implementación de Australia (`c:AST`), descubrimos matices importantes:
 
@@ -146,3 +188,58 @@ Estos nombres suelen estar en `localization/spanish/countries_l_spanish.yml` con
 `Select-String ... -Pattern "Tierra de Van Diemen"`
 Resultado: `dyn_c_van_diemans_land: "Tierra de Van Diemen"`
 Esto te confirma que es un nombre cosmético y no un TAG de país distinto. El TAG sigue siendo el mismo (probablemente `vdm` o `ast` dependiendo del momento), pero el nombre visual cambia por script.
+
+## 9. Biblioteca de Modificadores Útiles
+Aquí tienes una lista de comandos que he verificado en los archivos del juego (`game/common/modifier_type_definitions/`) y que son potentes para crear buffs genéricos:
+
+### Modificadores de País (Globales)
+Estos afectan a toda la nación simultáneamente. Ideales para el bloque `impulse_buff`.
+
+**Diplomacia e Infamia:**
+*   `country_infamy_decay_mult`: Qué tan rápido baja la infamia (ej: `1.0` es +100% de velocidad).
+*   `country_diplomatic_reputation_add`: Reputación diplomática (mejora la aceptación de pactos).
+*   `country_leverage_generation_mult`: Velocidad para ganar influencia sobre otros países.
+*   `country_max_declared_interests_add`: Cantidad de intereses estratégicos extra (ej: `2`).
+
+**Leyes y Estabilidad Política:**
+*   `country_law_enactment_success_add`: Probabilidad de éxito al pasar leyes (ej: `0.1` = +10%).
+*   `country_law_enactment_time_mult`: Tiempo de espera entre fases de ley (ej: `-0.2` = 20% más rápido).
+*   `country_legitimacy_base_add`: Legitimidad base (para evitar revoluciones).
+*   `country_institution_size_change_speed_mult`: Velocidad para subir el nivel de las instituciones.
+
+**Economía y Compañías:**
+*   `country_company_throughput_bonus_add`: Rendimiento extra para todas tus Compañías (Prosperidad).
+*   `country_minting_mult`: Rendimiento de la acuñación de moneda.
+*   `country_tax_waste_add`: Desperdicio de impuestos (ej: `-0.5` reduce la corrupción a la mitad).
+*   `country_expenses_add`: Gastos generales del estado (ej: `-5.0` reduce gastos fijos significativamente).
+
+**Población y Sociedad:**
+*   `country_mass_migration_attraction_mult`: Probabilidad de atraer oleadas migratorias masivas.
+*   `state_birth_rate_mult`: Multiplicador de tasa de natalidad (ej: `0.02` = +2%).
+*   `country_loyalists_from_sol_change_mult`: Multiplica la creación de ciudadanos leales.
+*   `country_radicals_from_sol_change_mult`: Reduce la creación de radicales (usar valores negativos como `-0.5`).
+
+**Prestigio y Poder:**
+*   `country_prestige_mult`: Multiplicador de prestigio global.
+*   `country_prestige_from_army_power_projection_mult`: Prestigio generado por el tamaño de tu ejército.
+*   `country_prestige_from_navy_power_projection_mult`: Prestigio generado por el tamaño de tu flota.
+
+### Modificadores de Estado (Locales)
+*   `state_construction_mult`: Eficiencia de construcción (Velocidad).
+*   `state_migration_pull_mult`: Atracción de migración.
+*   `state_standard_of_living_add`: Sube el nivel de vida directamente (ej: `2`).
+*   `state_mortality_mult`: Mortalidad (usar valores **negativos** como `-0.2` para mejorar la salud).
+*   `state_infrastructure_add`: Infraestructura plana.
+
+### Modificadores de Edificios / Economía
+*   `building_throughput_add`: Rendimiento global de todos los edificios (ej: `0.2` = +20%).
+*   `building_military_construction_speed_mult`: Específico para cuarteles y bases navales.
+*   `interest_group_approval_add`: Aprobación directa de los grupos de interés (ej: `5`).
+
+> [!TIP]
+> **Diferencia entre Mult y Add:**
+> *   `_add`: Suma un número plano (ej: +20 de autoridad).
+> *   `_mult`: Es un porcentaje sobre la base (ej: `0.1` es +10%).
+
+---
+*Documentación generada automáticamente para ayudar en la expansión de Force Borders.*

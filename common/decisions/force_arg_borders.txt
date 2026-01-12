@@ -19,17 +19,23 @@ force_historical_arg_borders = {
         s:STATE_CHACO = { every_scope_state = { set_state_owner = c:ARG } } # Chaco + Santiago del Estero
         # s:STATE_FORMOSA = { every_scope_state = { set_state_owner = c:ARG } } # REMOVED: This is Taiwan in game files!
         s:STATE_PATAGONIA = { every_scope_state = { set_state_owner = c:ARG } } # Neuquén + Chubut + etc
-        s:STATE_SANTA_CRUZ = { every_scope_state = { set_state_owner = c:ARG } } # Santa Cruz + Tierra del Fuego
+        # s:STATE_SANTA_CRUZ = { every_scope_state = { set_state_owner = c:ARG } } # Santa Cruz + Tierra del Fuego
         # s:STATE_SOUTH_ATLANTIC_ISLANDS = { every_scope_state = { set_state_owner = c:ARG } } # Malvinas
 
-        # Cambiar ley a Ejército Profesional
+        # Cambiar leyes
         c:ARG = {
-            activate_law = law_type:law_professional_army
+            activate_law = law_type:law_presidential_republic
+            activate_law = law_type:law_national_militia
+            activate_law = law_type:law_interventionism
+            activate_law = law_type:law_public_health_insurance
+            activate_law = law_type:law_secret_police
+            activate_law = law_type:law_slavery_banned
+            activate_law = law_type:law_no_migration_controls
 
             # Modificador "Impulso Imperial" por años
             add_modifier = {
-                name = usa_imperial_impulse
-                months = 60
+                name = impulse_buff_inmigracion
+                months = 12
             }
         }
     }

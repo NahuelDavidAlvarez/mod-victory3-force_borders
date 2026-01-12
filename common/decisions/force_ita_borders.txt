@@ -1,0 +1,61 @@
+force_historical_ita_borders = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # Usamos Cerdeña-Piamonte como el unificador histórico
+        # Si no existe (raro al inicio), intentamos con Dos Sicilias o Papales
+        # Pero para el script de "force", simplemente creamos los estados para SAR y cambiamos el tag
+        
+        # Anexionar todos los estados de la región italiana a SAR primero
+        s:STATE_PIEDMONT = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_SARDINIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_SAVOY = { every_scope_state = { set_state_owner = c:SAR } }
+        # Niza usualmente es parte de SAVOY o PIEDMONT en el engine, pero aseguramos estados vecinos
+        
+        s:STATE_LOMBARDY = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_VENETIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_TUSCANY = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_EMILIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_ROMAGNA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_UMBRIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_LAZIO = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_CAMPANIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_ABRUZZO = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_APULIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_CALABRIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_SICILY = { every_scope_state = { set_state_owner = c:SAR } }
+        
+        # Territorios Irredentos
+        s:STATE_ISTRIA = { every_scope_state = { set_state_owner = c:SAR } }
+        s:STATE_SOUTH_TYROL = { every_scope_state = { set_state_owner = c:SAR } }
+        
+        # Unificación oficial e instantánea
+        c:SAR = {
+            change_tag = ITA
+            
+            # Ajuste de leyes
+            activate_law = law_type:law_national_militia
+            activate_law = law_type:law_interventionism
+            activate_law = law_type:law_public_health_insurance
+            activate_law = law_type:law_secret_police
+            activate_law = law_type:law_slavery_banned
+            activate_law = law_type:law_no_migration_controls
+
+            # Modificador "Impulso Imperial"
+            add_modifier = {
+                name = impulse_buff_natalidad
+                months = 12
+            }
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}

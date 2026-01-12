@@ -44,15 +44,137 @@
             }
         }
 
-        # Cambiar ley a Ejército Profesional
+        # Cambiar leyes y aplicar buff
         c:USA = {
-            activate_law = law_type:law_professional_army
-            add_prestige = 50 # Visual debug confirmation
-            
-            # Modificador "Impulso Imperial" por años
+            activate_law = law_type:law_presidential_republic
+            activate_law = law_type:law_national_militia
+            activate_law = law_type:law_interventionism
+            activate_law = law_type:law_public_health_insurance
+            activate_law = law_type:law_secret_police
+            activate_law = law_type:law_slavery_banned
+            activate_law = law_type:law_no_migration_controls
+
+            # Modificador "Impulso Imperial"
             add_modifier = {
-                name = usa_imperial_impulse
-                months = 140
+                name = impulse_buff_inmigracion
+                months = 12
+            }
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}
+
+force_historical_usa_borders_two = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        c:USA = {
+            # Mexico
+            if = {
+                limit = { exists = c:MEX }
+                create_diplomatic_pact = {
+                    country = c:MEX
+                    type = puppet
+                }
+            }
+            
+            # Venezuela
+            if = {
+                limit = { exists = c:VNZ }
+                create_diplomatic_pact = {
+                    country = c:VNZ
+                    type = puppet
+                }
+            }
+            
+            # Colombia
+            if = {
+                limit = { exists = c:CLM }
+                create_diplomatic_pact = {
+                    country = c:CLM
+                    type = puppet
+                }
+            }
+            
+            # Panama
+            if = {
+                limit = { exists = c:PNM }
+                create_diplomatic_pact = {
+                    country = c:PNM
+                    type = puppet
+                }
+            }
+            
+            # Cuba
+            if = {
+                limit = { exists = c:CUB }
+                create_diplomatic_pact = {
+                    country = c:CUB
+                    type = puppet
+                }
+            }
+            
+            # Nicaragua
+            if = {
+                limit = { exists = c:NIC }
+                create_diplomatic_pact = {
+                    country = c:NIC
+                    type = puppet
+                }
+            }
+            
+            # Costa Rica
+            if = {
+                limit = { exists = c:COS }
+                create_diplomatic_pact = {
+                    country = c:COS
+                    type = puppet
+                }
+            }
+            
+            # El Salvador
+            if = {
+                limit = { exists = c:ELS }
+                create_diplomatic_pact = {
+                    country = c:ELS
+                    type = puppet
+                }
+            }
+            
+            # Guatemala
+            if = {
+                limit = { exists = c:GUA }
+                create_diplomatic_pact = {
+                    country = c:GUA
+                    type = puppet
+                }
+            }
+            
+            # Honduras
+            if = {
+                limit = { exists = c:HON }
+                create_diplomatic_pact = {
+                    country = c:HON
+                    type = puppet
+                }
+            }
+            
+            # Central America (UCA Confederation)
+            if = {
+                limit = { exists = c:UCA }
+                create_diplomatic_pact = {
+                    country = c:UCA
+                    type = puppet
+                }
             }
         }
     }

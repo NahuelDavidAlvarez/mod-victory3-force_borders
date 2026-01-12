@@ -14,6 +14,14 @@
         s:STATE_ARAUCANIA = { every_scope_state = { set_state_owner = c:CHL } }
         s:STATE_ANTOFAGASTA = { every_scope_state = { set_state_owner = c:CHL } }
         s:STATE_TARAPACA = { every_scope_state = { set_state_owner = c:CHL } }
+        
+        c:CHL = {
+            # Modificador "Impulso Imperial"
+            add_modifier = {
+                name = impulse_buff_inmigracion
+                months = 12
+            }
+        }
     }
     
     ai_chance = {

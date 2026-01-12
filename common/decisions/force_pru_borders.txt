@@ -9,10 +9,7 @@ force_historical_north_german_borders = {
     
     when_taken = {
         # Prusia (c:PRU)
-        c:PRU = {
-            activate_law = law_type:law_professional_army
-        }
-        
+
         # Norte de Alemania
         s:STATE_HANNOVER = { every_scope_state = { set_state_owner = c:PRU } }
         s:STATE_SAXONY = { every_scope_state = { set_state_owner = c:PRU } }
@@ -29,7 +26,18 @@ force_historical_north_german_borders = {
         s:STATE_BRUNSWICK = { every_scope_state = { set_state_owner = c:PRU } }
 
         c:PRU = {
-             add_prestige = 5 # Confirmación visual
+            activate_law = law_type:law_interventionism
+            activate_law = law_type:law_national_militia
+            activate_law = law_type:law_public_health_insurance
+            activate_law = law_type:law_secret_police
+            activate_law = law_type:law_slavery_banned
+            activate_law = law_type:law_no_migration_controls
+             
+             # Modificador "Impulso Imperial"
+             add_modifier = {
+                 name = impulse_buff_natalidad
+                 months = 12
+             }
         }
     }
     

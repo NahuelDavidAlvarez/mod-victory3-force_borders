@@ -2,7 +2,7 @@ usa_imperial_aggression = {
     type = ai_strategy
     
     trigger = {
-        has_modifier = usa_imperial_impulse
+        has_modifier = impulse_buff
     }
     
     # Aumentar puntuación para objetivos de guerra de conquista y colonización

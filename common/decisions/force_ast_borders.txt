@@ -39,6 +39,26 @@
             s:STATE_TASMANIA = { every_scope_state = { set_state_owner = c:TAS } }
             s:STATE_NORTHERN_TERRITORY = { every_scope_state = { set_state_owner = c:TAS } }
         }
+        
+        # Modificador "Impulso Imperial"
+        if = {
+            limit = { exists = c:AST }
+            c:AST = {
+                add_modifier = {
+                    name = impulse_buff_inmigracion
+                    months = 12
+                }
+            }
+        }
+        else_if = {
+            limit = { exists = c:TAS }
+            c:TAS = {
+                add_modifier = {
+                    name = impulse_buff_inmigracion
+                    months = 12
+                }
+            }
+        }
     }
     
     ai_chance = {

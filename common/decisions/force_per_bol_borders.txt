@@ -1,0 +1,101 @@
+﻿force_historical_per_bol_borders = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # --- PREPARACIÃ“N DE PERÃš (NPU/PEU) ---
+        # Usamos NPU como base para absorber todo, luego cambiamos a PEU
+        # Si no existe NPU (ej: unificada por PBC), tomamos a PBC como base
+        if = {
+            limit = { exists = c:NPU }
+            c:NPU = {
+                # Transferir estados del nÃºcleo moderno
+                s:STATE_LIMA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_ICA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_AREQUIPA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_CAJAMARCA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_PASTAZA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_AMAZONAS = { every_scope_state = { set_state_owner = prev } }
+                
+                # Anexionar competidores internos
+                if = { limit = { exists = c:SPU } annex = c:SPU }
+                if = { limit = { exists = c:PBC } annex = c:PBC }
+                
+                # Transformar en PerÃº Unificado
+                change_tag = PEU
+                
+                # ModernizaciÃ³n
+                activate_law = law_type:law_interventionism
+                add_modifier = {
+                    name = impulse_buff_inmigracion
+                    months = 2
+                }
+            }
+        }
+        else_if = {
+            limit = { exists = c:PEU }
+            c:PEU = {
+                s:STATE_LIMA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_ICA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_AREQUIPA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_CAJAMARCA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_PASTAZA = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_AMAZONAS = { every_scope_state = { set_state_owner = prev } }
+                if = { limit = { exists = c:NPU } annex = c:NPU }
+                if = { limit = { exists = c:SPU } annex = c:SPU }
+                if = { limit = { exists = c:PBC } annex = c:PBC }
+                activate_law = law_type:law_interventionism
+                add_modifier = { 
+                    name = impulse_buff_inmigracion
+                    months = 2 
+                }   
+            }
+        }
+
+        # --- BOLIVIA (c:BOL) ---
+        if = {
+            limit = { exists = c:BOL }
+            c:BOL = {
+                # Anexionar estados del nÃºcleo moderno
+                s:STATE_LA_PAZ = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_POTOSI = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_SANTA_CRUZ = { every_scope_state = { set_state_owner = prev } }
+                s:STATE_ACRE = { every_scope_state = { set_state_owner = prev } }
+                
+                # Deshacerse de territorios costeros (Chile) o argentinos
+                # Esto se hace mejor via transferencia directa a los vecinos para evitar huecos
+                
+                # ModernizaciÃ³n
+                activate_law = law_type:law_interventionism
+                add_modifier = {
+                    name = impulse_buff_inmigracion
+                    months = 2
+                }
+            }
+        }
+        
+        # --- LIMPIEZA DE FRONTERAS (Vecinos) ---
+        # Entregamos los estados en disputa a los vecinos correspondientes
+        s:STATE_ANTOFAGASTA = { 
+            limit = { exists = c:CHL }
+            every_scope_state = { set_state_owner = c:CHL } 
+        }
+        s:STATE_TARAPACA = { 
+            limit = { exists = c:CHL }
+            every_scope_state = { set_state_owner = c:CHL } 
+        }
+        s:STATE_JUJUY = { 
+            limit = { exists = c:ARG }
+            every_scope_state = { set_state_owner = c:ARG } 
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}
