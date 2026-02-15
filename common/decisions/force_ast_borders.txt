@@ -46,7 +46,7 @@
             c:AST = {
                 add_modifier = {
                     name = impulse_buff_inmigracion
-                    months = 12
+                    months = 60
                 }
             }
         }
@@ -55,7 +55,7 @@
             c:TAS = {
                 add_modifier = {
                     name = impulse_buff_inmigracion
-                    months = 12
+                    months = 60
                 }
             }
         }

@@ -35,7 +35,7 @@ force_historical_arg_borders = {
             # Modificador "Impulso Imperial" por años
             add_modifier = {
                 name = impulse_buff_inmigracion
-                months = 12
+                months = 60
             }
         }
     }

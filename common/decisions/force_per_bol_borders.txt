@@ -8,90 +8,76 @@
     }
     
     when_taken = {
-        # --- PREPARACIÃ“N DE PERÃš (NPU/PEU) ---
-        # Usamos NPU como base para absorber todo, luego cambiamos a PEU
-        # Si no existe NPU (ej: unificada por PBC), tomamos a PBC como base
-        if = {
-            limit = { exists = c:NPU }
-            c:NPU = {
-                # Transferir estados del nÃºcleo moderno
-                s:STATE_LIMA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_ICA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_AREQUIPA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_CAJAMARCA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_PASTAZA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_AMAZONAS = { every_scope_state = { set_state_owner = prev } }
-                
-                # Anexionar competidores internos
-                if = { limit = { exists = c:SPU } annex = c:SPU }
-                if = { limit = { exists = c:PBC } annex = c:PBC }
-                
-                # Transformar en PerÃº Unificado
-                change_tag = PEU
-                
-                # ModernizaciÃ³n
-                activate_law = law_type:law_interventionism
-                add_modifier = {
-                    name = impulse_buff_inmigracion
-                    months = 2
-                }
-            }
+        # --- IDENTIFICAR EL PAÃ S UNIFICADOR (PBC_UNIFIER) ---
+        # Priorizamos Bolivia o PerÃº para ser el ancla de la ConfederaciÃ³n
+        if = { 
+            limit = { exists = c:BOL } 
+            c:BOL = { save_scope_as = pbc_unifier } 
         }
-        else_if = {
-            limit = { exists = c:PEU }
-            c:PEU = {
-                s:STATE_LIMA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_ICA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_AREQUIPA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_CAJAMARCA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_PASTAZA = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_AMAZONAS = { every_scope_state = { set_state_owner = prev } }
-                if = { limit = { exists = c:NPU } annex = c:NPU }
-                if = { limit = { exists = c:SPU } annex = c:SPU }
-                if = { limit = { exists = c:PBC } annex = c:PBC }
-                activate_law = law_type:law_interventionism
-                add_modifier = { 
-                    name = impulse_buff_inmigracion
-                    months = 2 
-                }   
-            }
+        else_if = { 
+            limit = { exists = c:PEU } 
+            c:PEU = { save_scope_as = pbc_unifier } 
         }
-
-        # --- BOLIVIA (c:BOL) ---
-        if = {
-            limit = { exists = c:BOL }
-            c:BOL = {
-                # Anexionar estados del nÃºcleo moderno
-                s:STATE_LA_PAZ = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_POTOSI = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_SANTA_CRUZ = { every_scope_state = { set_state_owner = prev } }
-                s:STATE_ACRE = { every_scope_state = { set_state_owner = prev } }
-                
-                # Deshacerse de territorios costeros (Chile) o argentinos
-                # Esto se hace mejor via transferencia directa a los vecinos para evitar huecos
-                
-                # ModernizaciÃ³n
-                activate_law = law_type:law_interventionism
-                add_modifier = {
-                    name = impulse_buff_inmigracion
-                    months = 2
-                }
-            }
+        else_if = { 
+            limit = { exists = c:NPU } 
+            c:NPU = { save_scope_as = pbc_unifier } 
+        }
+        else_if = { 
+            limit = { exists = c:SPU } 
+            c:SPU = { save_scope_as = pbc_unifier } 
+        }
+        else_if = { 
+            limit = { exists = c:PBC } 
+            c:PBC = { save_scope_as = pbc_unifier } 
         }
         
-        # --- LIMPIEZA DE FRONTERAS (Vecinos) ---
-        # Entregamos los estados en disputa a los vecinos correspondientes
-        s:STATE_ANTOFAGASTA = { 
-            limit = { exists = c:CHL }
-            every_scope_state = { set_state_owner = c:CHL } 
-        }
-        s:STATE_TARAPACA = { 
-            limit = { exists = c:CHL }
-            every_scope_state = { set_state_owner = c:CHL } 
-        }
-        s:STATE_JUJUY = { 
-            limit = { exists = c:ARG }
-            every_scope_state = { set_state_owner = c:ARG } 
+        # --- TRANSFERENCIA TOTAL DE TERRITORIO (SIN HUECOS) ---
+        # Usamos el scope guardado para asegurar que la tierra vaya al paÃ­s correcto
+        if = {
+            limit = { exists = scope:pbc_unifier }
+            
+            # Peru
+            s:STATE_LIMA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_ICA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_AREQUIPA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_CAJAMARCA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_PASTAZA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_TARAPACA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            
+            # Bolivia + Disputados (Acre, Antofagasta, Jujuy)
+            s:STATE_LA_PAZ = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_POTOSI = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_SANTA_CRUZ = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_ACRE = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_ANTOFAGASTA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            s:STATE_JUJUY = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+
+            # --- CONSOLIDACIÃ“N POLÃ TICA Y CULTURAL ---
+            scope:pbc_unifier = {
+                # Anexionar etiquetas competidoras
+                if = { limit = { exists = c:BOL AND = { NOT = { this = c:BOL } } } annex = c:BOL }
+                if = { limit = { exists = c:PEU AND = { NOT = { this = c:PEU } } } annex = c:PEU }
+                if = { limit = { exists = c:NPU AND = { NOT = { this = c:NPU } } } annex = c:NPU }
+                if = { limit = { exists = c:SPU AND = { NOT = { this = c:SPU } } } annex = c:SPU }
+                if = { limit = { exists = c:PBC AND = { NOT = { this = c:PBC } } } annex = c:PBC }
+
+                # TransformaciÃ³n final en la ConfederaciÃ³n
+                if = { limit = { NOT = { tag = PBC } } change_tag = PBC }
+
+                # Estabilidad y Homelands (Asegurar que la tierra sea nÃºcleo)
+                every_owned_state = {
+                    add_homeland = south_andean
+                    add_homeland = quechua
+                    add_homeland = aimara
+                }
+
+                # ModernizaciÃ³n y Buffs (Ajustes del Usuario)
+                activate_law = law_type:law_interventionism
+                add_modifier = {
+                    name = impulse_buff_inmigracion
+                    months = 60
+                }
+            }
         }
     }
     

@@ -50,7 +50,7 @@ force_historical_ita_borders = {
             # Modificador "Impulso Imperial"
             add_modifier = {
                 name = impulse_buff_natalidad
-                months = 12
+                months = 60
             }
         }
     }
