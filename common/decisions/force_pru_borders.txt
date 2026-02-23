@@ -24,14 +24,14 @@ force_historical_north_german_borders = {
         s:STATE_BRANDENBURG = { every_scope_state = { set_state_owner = c:PRU } }
         s:STATE_MECKLENBURG = { every_scope_state = { set_state_owner = c:PRU } }
         s:STATE_BRUNSWICK = { every_scope_state = { set_state_owner = c:PRU } }
+        s:STATE_ELBE = { every_scope_state = { set_state_owner = c:PRU } }
+        s:STATE_ANHALT = { every_scope_state = { set_state_owner = c:PRU } }
+        s:STATE_HESSE = { every_scope_state = { set_state_owner = c:PRU } }
 
         c:PRU = {
             activate_law = law_type:law_interventionism
-            activate_law = law_type:law_national_militia
             activate_law = law_type:law_public_health_insurance
             activate_law = law_type:law_secret_police
-            activate_law = law_type:law_slavery_banned
-            activate_law = law_type:law_no_migration_controls
              
              # Modificador "Impulso Imperial"
              add_modifier = {

@@ -1,0 +1,22 @@
+
+activar_impulso_obrero = {
+    is_shown = { is_ai = no }
+    possible = { always = yes }
+    when_taken = {
+		c:CHI = {
+			add_modifier = {
+				name = conciencia_obrera_modifier
+				months = 240 # El bufo durará 10 años
+			}
+		}
+		c:RUS = {
+			add_modifier = {
+				name = conciencia_obrera_modifier
+				months = 240 # El bufo durará 10 años
+			}
+		}
+    }
+    ai_chance = 0
+}
+
+
