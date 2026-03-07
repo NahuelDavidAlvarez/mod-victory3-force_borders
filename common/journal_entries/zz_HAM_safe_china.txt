@@ -17,26 +17,25 @@
 
 	on_monthly_pulse = {
 		effect = {
-			# Reconocer a China si alcanza rango de potencia mayor O tiene GDP suficiente
-			# Bloqueado hasta 1850 para evitar que ocurra al inicio del juego
-			if = {
-				limit = {
-					game_date >= 1862.1.1
-					OR = {
-						country_rank >= rank_value:major_power
-						gdp >= 110000000
-					}
-				}
-				set_country_type = recognized
-				set_variable = china_permanently_recognized
-			}
+# RECONOCIMIENTO DESACTIVADO - Ahora se maneja por decisión manual
+#			if = {
+#				limit = {
+#					game_date >= 1862.1.1
+#					OR = {
+#						country_rank >= rank_value:major_power
+#						gdp >= 110000000
+#					}
+#				}
+#				set_country_type = recognized
+#				set_variable = china_permanently_recognized
+#			}
 		}
 	}
 
 	on_complete = {
-		set_country_type = recognized
-		set_variable = china_permanently_recognized
-		custom_tooltip = "china_is_recognized_tt"
+		# set_country_type = recognized
+		# set_variable = china_permanently_recognized
+		# custom_tooltip = "china_is_recognized_tt"
 	}
 
 	weight = 100

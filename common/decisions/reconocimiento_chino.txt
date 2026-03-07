@@ -1,0 +1,73 @@
+reconocimiento_chino = {
+	title = "reconocimiento_chino"
+	description = "reconocimiento_chino_desc"
+	
+	is_shown = {
+		is_ai = no
+		exists = c:CHI
+		c:CHI = { NOT = { is_country_type = recognized } }
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		c:CHI = {
+			set_country_type = recognized
+			set_variable = china_permanently_recognized
+			custom_tooltip = "china_is_recognized_tt"
+
+			activate_law = law_type:law_presidential_republic
+			activate_law = law_type:law_autocracy
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_secret_police
+
+			# Modificador "Impulso Imperial"
+			add_modifier = {
+				name = impulse_buff_natalidad
+				months = 36
+			}
+
+			# Lista de estados a transferir
+			s:STATE_BEIJING = { transfer_state_to = c:CHI }
+			s:STATE_ZHILI = { transfer_state_to = c:CHI }
+			s:STATE_SHANDONG = { transfer_state_to = c:CHI }
+			s:STATE_HENAN = { transfer_state_to = c:CHI }
+			s:STATE_SHANXI = { transfer_state_to = c:CHI }
+			s:STATE_XIAN = { transfer_state_to = c:CHI }
+			s:STATE_JIANGSU = { transfer_state_to = c:CHI }
+			s:STATE_NANJING = { transfer_state_to = c:CHI }
+			s:STATE_SUZHOU = { transfer_state_to = c:CHI }
+			s:STATE_ZHEJIANG = { transfer_state_to = c:CHI }
+			s:STATE_NORTHERN_ANHUI = { transfer_state_to = c:CHI }
+			s:STATE_SOUTHERN_ANHUI = { transfer_state_to = c:CHI }
+			s:STATE_JIANGXI = { transfer_state_to = c:CHI }
+			s:STATE_GUANGDONG = { transfer_state_to = c:CHI }
+			s:STATE_SHAOZHOU = { transfer_state_to = c:CHI }
+			s:STATE_GUANGXI = { transfer_state_to = c:CHI }
+			s:STATE_FUJIAN = { transfer_state_to = c:CHI }
+			s:STATE_FORMOSA = { transfer_state_to = c:CHI }
+			s:STATE_HUNAN = { transfer_state_to = c:CHI }
+			s:STATE_GUIZHOU = { transfer_state_to = c:CHI }
+			s:STATE_YUNNAN = { transfer_state_to = c:CHI }
+			s:STATE_SICHUAN = { transfer_state_to = c:CHI }
+			s:STATE_CHONGQING = { transfer_state_to = c:CHI }
+			s:STATE_WESTERN_HUBEI = { transfer_state_to = c:CHI }
+			s:STATE_EASTERN_HUBEI = { transfer_state_to = c:CHI }
+			s:STATE_GANSU = { transfer_state_to = c:CHI }
+			s:STATE_NINGXIA = { transfer_state_to = c:CHI }
+			s:STATE_ALXA = { transfer_state_to = c:CHI }
+			s:STATE_QINGHAI = { transfer_state_to = c:CHI }
+			s:STATE_DZUNGARIA = { transfer_state_to = c:CHI }
+			s:STATE_TIANSHAN = { transfer_state_to = c:CHI }
+			s:STATE_SHENGJING = { transfer_state_to = c:CHI }
+			s:STATE_SOUTHERN_MANCHURIA = { transfer_state_to = c:CHI }
+			s:STATE_NORTHERN_MANCHURIA = { transfer_state_to = c:CHI }
+			s:STATE_HINGGAN = { transfer_state_to = c:CHI }
+			s:STATE_OUTER_MANCHURIA = { transfer_state_to = c:CHI }
+			#s:STATE_LHASA = { transfer_state_to = c:CHI }
+			#s:STATE_NGARI = { transfer_state_to = c:CHI }
+		}
+	}
+}

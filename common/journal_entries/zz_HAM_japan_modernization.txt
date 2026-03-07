@@ -57,23 +57,24 @@ je_ham_japan_modernization = {
 
 			# Paso 2: Una vez que Japón tiene la Restauración en marcha,
 			# reconocerlo si cumple condiciones básicas
-			if = {
-				limit = {
-					NOT = { is_country_type = recognized }
-					game_date >= 1852.1.1
-					OR = {
-						has_modifier = shogun_ig_forced_to_open_market
-						has_journal_entry = je_meiji_restoration
-						has_journal_entry = je_meiji_main
-					}
-					OR = {
-						country_rank >= rank_value:major_power
-						gdp >= 13000000
-					}
-				}
-				set_country_type = recognized
-				set_variable = japan_permanently_recognized
-			}
+# RECONOCIMIENTO DESACTIVADO - Ahora se maneja por decisión manual
+#			if = {
+#				limit = {
+#					NOT = { is_country_type = recognized }
+#					game_date >= 1852.1.1
+#					OR = {
+#						has_modifier = shogun_ig_forced_to_open_market
+#						has_journal_entry = je_meiji_restoration
+#						has_journal_entry = je_meiji_main
+#					}
+#					OR = {
+#						country_rank >= rank_value:major_power
+#						gdp >= 13000000
+#					}
+#				}
+#				set_country_type = recognized
+#				set_variable = japan_permanently_recognized
+#			}
 		}
 	}
 
@@ -83,9 +84,9 @@ je_ham_japan_modernization = {
 	}
 
 	on_complete = {
-		set_country_type = recognized
-		set_variable = japan_permanently_recognized
-		custom_tooltip = "japan_is_recognized_tt"
+		# set_country_type = recognized
+		# set_variable = japan_permanently_recognized
+		# custom_tooltip = "japan_is_recognized_tt"
 	}
 
 	weight = 100

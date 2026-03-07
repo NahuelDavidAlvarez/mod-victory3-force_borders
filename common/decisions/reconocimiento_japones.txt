@@ -1,0 +1,45 @@
+reconocimiento_japones = {
+	title = "reconocimiento_japones"
+	description = "reconocimiento_japones_desc"
+	
+	is_shown = {
+		is_ai = no
+		exists = c:JAP
+		c:JAP = { NOT = { is_country_type = recognized } }
+	}
+
+	possible = {
+		# Podrías añadir condiciones adicionales aquí si lo deseas, 
+		# pero por ahora lo dejo libre como pediste.
+		always = yes
+	}
+
+	when_taken = {
+		c:JAP = {
+			set_country_type = recognized
+			set_variable = japan_permanently_recognized
+			custom_tooltip = "japan_is_recognized_tt"
+
+			activate_law = law_type:law_interventionism
+			activate_law = law_type:law_public_health_insurance
+			activate_law = law_type:law_secret_police
+			 
+			# Modificador "Impulso Imperial"
+			add_modifier = {
+				name = impulse_buff_natalidad
+				months = 36
+			}
+
+			# Lista de estados a transferir
+			s:STATE_HOKKAIDO = { transfer_state_to = c:JAP }
+			s:STATE_TOHOKU = { transfer_state_to = c:JAP }
+			s:STATE_KANTO = { transfer_state_to = c:JAP }
+			s:STATE_CHUBU = { transfer_state_to = c:JAP }
+			s:STATE_KANSAI = { transfer_state_to = c:JAP }
+			s:STATE_CHUGOKU = { transfer_state_to = c:JAP }
+			s:STATE_SHIKOKU = { transfer_state_to = c:JAP }
+			s:STATE_KYUSHU = { transfer_state_to = c:JAP }
+			s:STATE_RYUKYU_ISLANDS = { transfer_state_to = c:JAP }
+		}
+	}
+}
