@@ -34,3 +34,18 @@ l_spanish:
 
   activar_impulso_obrero: "Activar Impulso Obrero"
   activar_impulso_obrero_desc: "Activa el impulso obrero"
+
+  pb_great_america:0 "Great America"
+  pb_traite_de_paris:0 "Traité de Paris"
+  je_chinese_modernization:0 "Movimiento de Auto-Fortalecimiento"
+  je_chinese_modernization_desc:0 "China debe modernizar su industria y ejército para sobrevivir en el mundo moderno."
+  je_chinese_modernization_reason:0 "China busca fortalecerse internamente mediante reformas industriales y militares."
+  china_is_recognized_tt:0 "China es ahora una potencia reconocida."
+  ham_create_blocs_title:0 "DEBUG Crear Bloques de Poder"
+  ham_create_blocs_desc:0 "Fuerza la creación de los bloques de poder de USA y Francia con sus colores y principios."
+  USA_naval_superpower_ambition:0 "Ambición de Superpotencia Naval"
+  USA_naval_superpower_ambition_desc:0 "Los Estados Unidos han decidido priorizar su armada para"
+
+
+
+

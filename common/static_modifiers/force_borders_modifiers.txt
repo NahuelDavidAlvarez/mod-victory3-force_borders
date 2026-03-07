@@ -26,3 +26,13 @@ conciencia_obrera_modifier = {
 	# Aumento de la ATRACCIÓN de las pops hacia los Sindicatos
 	interest_group_ig_trade_unions_pop_attraction_mult = 0.5
 }
+
+USA_naval_superpower_ambition = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+    
+    building_group_bg_navy_throughput_add = 0.2
+    country_prestige_from_navy_power_projection_mult = 2.0
+    
+    goods_input_manowars_mult = -0.2
+    goods_input_ironclads_mult = -0.2
+}

@@ -1,0 +1,92 @@
+# HAM - Japan Modernization Journal Entry
+# Ayuda a Japón a completar la Restauración Meiji y protege su status reconocido
+# Activado por on_game_started en zz_HAM_on_actions.txt
+
+je_ham_japan_modernization = {
+	title = "je_ham_japan_modernization"
+	description = "je_ham_japan_modernization_desc"
+	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+
+	group = je_group_meiji_restoration
+
+	# Solo activo mientras Japón no haya completado la Restauración Meiji
+	possible = {
+		this ?= c:JAP
+		NOT = { has_variable = meiji_restoration_complete }
+		NOT = { has_variable = japan_permanently_recognized }
+	}
+
+	can_activate = {
+		always = yes
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			# Paso 1: Si los Terratenientes están en el gobierno, debilitarlos
+			# para que la IA pueda sacarlos y activar je_meiji_restoration
+			if = {
+				limit = {
+					ig:ig_landowners ?= {
+						is_in_government = yes
+						is_powerful = yes
+					}
+					NOT = { has_modifier = shogun_ig_forced_to_open_market }
+				}
+				# Añadir el modifier de apertura forzada para activar las estrategias Meiji
+				# y desbloquear leyes económicas clave
+				add_modifier = shogun_ig_forced_to_open_market
+				
+				# CRÍTICO: Activar manualmente las estrategias de IA para que la computadora
+				# sepa que debe reformar el gobierno y modernizarse
+				set_strategy = ai_strategy_meiji_restoration
+				set_strategy = ai_strategy_industrial_expansion
+				set_variable = japan_forced_to_open_market
+
+				# Crear movimiento modernizador si no existe
+				if = {
+					limit = {
+						NOT = {
+							any_political_movement = {
+								is_political_movement_type = movement_modernizer
+							}
+						}
+					}
+					create_political_movement = { type = movement_modernizer }
+				}
+			}
+
+			# Paso 2: Una vez que Japón tiene la Restauración en marcha,
+			# reconocerlo si cumple condiciones básicas
+			if = {
+				limit = {
+					NOT = { is_country_type = recognized }
+					game_date >= 1852.1.1
+					OR = {
+						has_modifier = shogun_ig_forced_to_open_market
+						has_journal_entry = je_meiji_restoration
+						has_journal_entry = je_meiji_main
+					}
+					OR = {
+						country_rank >= rank_value:major_power
+						gdp >= 13000000
+					}
+				}
+				set_country_type = recognized
+				set_variable = japan_permanently_recognized
+			}
+		}
+	}
+
+	# El JE se completa cuando Japón termina la Restauración Meiji
+	complete = {
+		has_variable = meiji_restoration_complete
+	}
+
+	on_complete = {
+		set_country_type = recognized
+		set_variable = japan_permanently_recognized
+		custom_tooltip = "japan_is_recognized_tt"
+	}
+
+	weight = 100
+}

@@ -72,6 +72,7 @@
 
                 # Modernización y Buffs (Ajustes del Usuario)
                 activate_law = law_type:law_interventionism
+                activate_law = law_type:law_presidential_republic
                 add_modifier = {
                     name = impulse_buff_inmigracion
                     months = 60

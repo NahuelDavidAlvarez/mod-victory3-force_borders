@@ -1,0 +1,79 @@
+﻿on_game_started = {
+	effect = {
+		# China Diario
+		if = {
+			limit = { 
+				exists = c:CHI 
+				NOT = { c:CHI = { has_journal_entry = je_chinese_modernization } }
+			}
+			c:CHI = {
+				add_journal_entry = { type = je_chinese_modernization }
+			}
+		}
+
+		# Japón: Facilitar Restauración Meiji
+		if = {
+			limit = { exists = c:JAP }
+			c:JAP = {
+				add_technology_researched = napoleonic_warfare
+				# Activar el diario de modernización de Japón
+				if = {
+					limit = {
+						NOT = { has_journal_entry = je_ham_japan_modernization }
+						NOT = { has_variable = meiji_restoration_complete }
+					}
+					add_journal_entry = { type = je_ham_japan_modernization }
+				}
+			}
+		}
+
+		# France Bloc
+		if = {
+			limit = { 
+				exists = c:FRA 
+				c:FRA = { is_power_bloc_leader = no }
+			}
+			c:FRA = {
+				create_power_bloc = {
+					name = "pb_traite_de_paris"
+					identity = identity_trade_league
+					map_color = { 0 86 184 }
+					principle = principle_external_trade_1
+				}
+			}
+		}
+	}
+}
+
+# Protección permanente del status reconocido de China y Japón
+# Una vez que ganan el reconocimiento, no pueden retroceder
+on_yearly_pulse = {
+	effect = {
+		# China
+		if = {
+			limit = {
+				exists = c:CHI
+				c:CHI = {
+					has_variable = china_permanently_recognized
+					NOT = { is_country_type = recognized }
+				}
+			}
+			c:CHI = {
+				set_country_type = recognized
+			}
+		}
+		# Japón
+		if = {
+			limit = {
+				exists = c:JAP
+				c:JAP = {
+					has_variable = japan_permanently_recognized
+					NOT = { is_country_type = recognized }
+				}
+			}
+			c:JAP = {
+				set_country_type = recognized
+			}
+		}
+	}
+}

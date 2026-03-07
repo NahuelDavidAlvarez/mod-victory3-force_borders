@@ -19,7 +19,7 @@ force_historical_ita_borders = {
         # Niza usualmente es parte de SAVOY o PIEDMONT en el engine, pero aseguramos estados vecinos
         
         s:STATE_LOMBARDY = { every_scope_state = { set_state_owner = c:SAR } }
-        s:STATE_VENETIA = { every_scope_state = { set_state_owner = c:SAR } }
+        # s:STATE_VENETIA = { every_scope_state = { set_state_owner = c:SAR } }
         s:STATE_TUSCANY = { every_scope_state = { set_state_owner = c:SAR } }
         s:STATE_EMILIA = { every_scope_state = { set_state_owner = c:SAR } }
         s:STATE_ROMAGNA = { every_scope_state = { set_state_owner = c:SAR } }
@@ -40,12 +40,8 @@ force_historical_ita_borders = {
             change_tag = ITA
             
             # Ajuste de leyes
-            activate_law = law_type:law_national_militia
             activate_law = law_type:law_interventionism
-            activate_law = law_type:law_public_health_insurance
             activate_law = law_type:law_secret_police
-            activate_law = law_type:law_slavery_banned
-            activate_law = law_type:law_no_migration_controls
 
             # Modificador "Impulso Imperial"
             add_modifier = {

@@ -1,5 +1,5 @@
 
-activar_impulso_obrero = {
+activar_impulso_obrero_Chino = {
     is_shown = { is_ai = no }
     possible = { always = yes }
     when_taken = {
@@ -9,6 +9,15 @@ activar_impulso_obrero = {
 				months = 240 # El bufo durará 10 años
 			}
 		}
+    }
+    ai_chance = 0
+}
+
+
+activar_impulso_obrero_Ruso = {
+    is_shown = { is_ai = no }
+    possible = { always = yes }
+    when_taken = {
 		c:RUS = {
 			add_modifier = {
 				name = conciencia_obrera_modifier
