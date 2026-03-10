@@ -4,8 +4,6 @@ reconocimiento_chino = {
 	
 	is_shown = {
 		is_ai = no
-		exists = c:CHI
-		c:CHI = { NOT = { is_country_type = recognized } }
 	}
 
 	possible = {
@@ -21,12 +19,13 @@ reconocimiento_chino = {
 			activate_law = law_type:law_presidential_republic
 			activate_law = law_type:law_autocracy
 			activate_law = law_type:law_interventionism
+            activate_law = law_type:law_protectionism
 			activate_law = law_type:law_secret_police
 
 			# Modificador "Impulso Imperial"
 			add_modifier = {
 				name = impulse_buff_natalidad
-				months = 36
+				months = 24
 			}
 
 			# Lista de estados a transferir

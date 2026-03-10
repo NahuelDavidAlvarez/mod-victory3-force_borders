@@ -57,5 +57,14 @@
  je_chinese_modernization:0 "Modernización China"
  je_chinese_modernization_desc:0 "China debe modernizar su industria y ejército."
  china_is_recognized_tt:0 "China es ahora una potencia reconocida."
- ham_create_blocs_title:0 "DEBUG Crear Bloques"
+ ham_create_blocs_title:0 "Crear Bloques"
  ham_create_blocs_desc:0 "Fuerza la creación de los bloques de poder de USA y Francia."
+ 
+ usa_friends:0 "EEUU Alianzas Continentales"
+ usa_friends_desc:0 "Establece objetivos diplomáticos amigables con las principales naciones de Sudamérica."
+ 
+ usa_block:0 "EEUU Fundar Great America"
+ usa_block_desc:0 "Crea el bloque de poder Great America e incluye a Colombia."
+ 
+ france_block:0 "Francia Fundar Traité de Paris"
+ france_block_desc:0 "Crea el bloque de poder Traité de Paris."

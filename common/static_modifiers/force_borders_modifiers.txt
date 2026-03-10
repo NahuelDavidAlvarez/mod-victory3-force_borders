@@ -30,9 +30,5 @@ conciencia_obrera_modifier = {
 USA_naval_superpower_ambition = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
     
-    building_group_bg_navy_throughput_add = 0.2
-    country_prestige_from_navy_power_projection_mult = 2.0
-    
-    goods_input_manowars_mult = -0.2
-    goods_input_ironclads_mult = -0.2
+    country_prestige_from_navy_power_projection_mult = 0.5
 }

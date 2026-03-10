@@ -1,18 +1,7 @@
-usa_imperial_aggression = {
-    type = ai_strategy
-    
-    trigger = {
-        has_modifier = impulse_buff
-    }
-    
-    # Aumentar puntuación para objetivos de guerra de conquista y colonización
-    ai_strategy = {
-        type = conquer_state
-        value = 25
-    }
-    
-    ai_strategy = {
-        type = establish_colony
-        value = 50
+usa_navy_strategy = {
+    type = administrative
+    building_group_weights = {
+        bg_navy = 2.0 
     }
 }
+
