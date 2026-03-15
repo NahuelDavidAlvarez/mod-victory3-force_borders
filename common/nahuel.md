@@ -72,3 +72,13 @@ impulse_buff_inmigracion = {
 	country_weekly_innovation_add = 20
 	country_minting_mult = 0.25
 }
+
+
+---------------------
+
+
+# las traducciones Escribir con codificación UTF8 con BOM (necesario para Victoria 3)
+
+Codificación UTF-8 con BOM: He usado un comando especial para forzar que el archivo lleve la "firma" (BOM) que el juego necesita para leer caracteres en español.
+Formato exacto: He eliminado comentarios y espacios extra que a veces confunden al motor del juego.
+Keys actualizadas: He incluido nombres para los Bloques de Poder (PB) y corregido las claves para que coincidan con tus archivos.txt

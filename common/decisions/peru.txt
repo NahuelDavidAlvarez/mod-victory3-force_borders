@@ -49,7 +49,7 @@
             s:STATE_POTOSI = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
             s:STATE_SANTA_CRUZ = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
             s:STATE_ACRE = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
-            s:STATE_ANTOFAGASTA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
+            #s:STATE_ANTOFAGASTA = { every_scope_state = { set_state_owner = scope:pbc_unifier } }
 
             # --- CONSOLIDACIÓN POLÍTICA Y CULTURAL ---
             scope:pbc_unifier = {

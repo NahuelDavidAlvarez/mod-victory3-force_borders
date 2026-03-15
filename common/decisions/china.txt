@@ -28,43 +28,43 @@ reconocimiento_chino = {
 				months = 36
 			}
 
-			# Lista de estados a transferir
-			s:STATE_BEIJING = { transfer_state_to = c:CHI }
-			s:STATE_ZHILI = { transfer_state_to = c:CHI }
-			s:STATE_SHANDONG = { transfer_state_to = c:CHI }
-			s:STATE_HENAN = { transfer_state_to = c:CHI }
-			s:STATE_SHANXI = { transfer_state_to = c:CHI }
-			s:STATE_XIAN = { transfer_state_to = c:CHI }
-			s:STATE_JIANGSU = { transfer_state_to = c:CHI }
-			s:STATE_NANJING = { transfer_state_to = c:CHI }
-			s:STATE_SUZHOU = { transfer_state_to = c:CHI }
-			s:STATE_ZHEJIANG = { transfer_state_to = c:CHI }
-			s:STATE_NORTHERN_ANHUI = { transfer_state_to = c:CHI }
-			s:STATE_SOUTHERN_ANHUI = { transfer_state_to = c:CHI }
-			s:STATE_JIANGXI = { transfer_state_to = c:CHI }
-			s:STATE_GUANGDONG = { transfer_state_to = c:CHI }
-			s:STATE_SHAOZHOU = { transfer_state_to = c:CHI }
-			s:STATE_GUANGXI = { transfer_state_to = c:CHI }
-			s:STATE_FUJIAN = { transfer_state_to = c:CHI }
-			s:STATE_FORMOSA = { transfer_state_to = c:CHI }
-			s:STATE_HUNAN = { transfer_state_to = c:CHI }
-			s:STATE_GUIZHOU = { transfer_state_to = c:CHI }
-			s:STATE_YUNNAN = { transfer_state_to = c:CHI }
-			s:STATE_SICHUAN = { transfer_state_to = c:CHI }
-			s:STATE_CHONGQING = { transfer_state_to = c:CHI }
-			s:STATE_WESTERN_HUBEI = { transfer_state_to = c:CHI }
-			s:STATE_EASTERN_HUBEI = { transfer_state_to = c:CHI }
-			s:STATE_GANSU = { transfer_state_to = c:CHI }
-			s:STATE_NINGXIA = { transfer_state_to = c:CHI }
-			s:STATE_ALXA = { transfer_state_to = c:CHI }
-			s:STATE_QINGHAI = { transfer_state_to = c:CHI }
-			s:STATE_DZUNGARIA = { transfer_state_to = c:CHI }
-			s:STATE_TIANSHAN = { transfer_state_to = c:CHI }
-			s:STATE_SHENGJING = { transfer_state_to = c:CHI }
-			s:STATE_SOUTHERN_MANCHURIA = { transfer_state_to = c:CHI }
-			s:STATE_NORTHERN_MANCHURIA = { transfer_state_to = c:CHI }
-			s:STATE_HINGGAN = { transfer_state_to = c:CHI }
-			s:STATE_OUTER_MANCHURIA = { transfer_state_to = c:CHI }
+			# Lista de estados a transferir (Limpia enclaves y fragmentos)
+			s:STATE_BEIJING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_ZHILI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHANDONG = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_HENAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHANXI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_XIAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_JIANGSU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NANJING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SUZHOU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_ZHEJIANG = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NORTHERN_ANHUI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SOUTHERN_ANHUI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_JIANGXI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GUANGDONG = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHAOZHOU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GUANGXI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_FUJIAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_FORMOSA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_HUNAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GUIZHOU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_YUNNAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SICHUAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_CHONGQING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_WESTERN_HUBEI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_EASTERN_HUBEI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GANSU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NINGXIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_ALXA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_QINGHAI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_DZUNGARIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_TIANSHAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHENGJING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SOUTHERN_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NORTHERN_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_HINGGAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_OUTER_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
 			#s:STATE_LHASA = { transfer_state_to = c:CHI }
 			#s:STATE_NGARI = { transfer_state_to = c:CHI }
 		}

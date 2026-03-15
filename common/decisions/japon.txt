@@ -32,17 +32,17 @@ reconocimiento_japones = {
 				months = 36
 			}
 
-			# Lista de estados a transferir
-			s:STATE_HOKKAIDO = { transfer_state_to = c:JAP }
-			s:STATE_TOHOKU = { transfer_state_to = c:JAP }
-			s:STATE_KANTO = { transfer_state_to = c:JAP }
-			s:STATE_CHUBU = { transfer_state_to = c:JAP }
-			s:STATE_KANSAI = { transfer_state_to = c:JAP }
-			s:STATE_CHUGOKU = { transfer_state_to = c:JAP }
-			s:STATE_SHIKOKU = { transfer_state_to = c:JAP }
-			s:STATE_KYUSHU = { transfer_state_to = c:JAP }
-			s:STATE_RYUKYU_ISLANDS = { transfer_state_to = c:JAP }
-            s:STATE_SAKHALIN = { transfer_state_to = c:JAP }
+			# Lista de estados a transferir (Usamos el método de EEUU para limpiar tribus)
+			s:STATE_HOKKAIDO = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_TOHOKU = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_KANTO = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_CHUBU = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_KANSAI = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_CHUGOKU = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_SHIKOKU = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_KYUSHU = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_RYUKYU_ISLANDS = { every_scope_state = { set_state_owner = c:JAP } }
+			s:STATE_SAKHALIN = { every_scope_state = { set_state_owner = c:JAP } }
 		}
 	}
 }
