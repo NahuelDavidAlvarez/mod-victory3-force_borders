@@ -1,4 +1,4 @@
-﻿force_historical_usa_borders = {
+﻿force_eeuu_borders = {
     is_shown = {
         is_ai = no
     }
@@ -51,6 +51,8 @@
             activate_law = law_type:law_secret_police
             activate_law = law_type:law_slavery_banned
             activate_law = law_type:law_no_migration_controls
+            activate_law = law_type:law_private_schools
+            
 
             # Modificador "Impulso Imperial"
             add_modifier = {
@@ -65,7 +67,7 @@
     }
 }
 
-force_historical_usa_borders_two = {
+force_eeuu_mexican_panama = {
     is_shown = {
         is_ai = no
     }
@@ -84,25 +86,6 @@ force_historical_usa_borders_two = {
                     type = puppet
                 }
             }
-            
-            # Venezuela
-            if = {
-                limit = { exists = c:VNZ }
-                create_diplomatic_pact = {
-                    country = c:VNZ
-                    type = puppet
-                }
-            }
-            
-            # Colombia
-            if = {
-                limit = { exists = c:CLM }
-                create_diplomatic_pact = {
-                    country = c:CLM
-                    type = puppet
-                }
-            }
-            
             # Panama
             if = {
                 limit = { exists = c:PNM }
@@ -112,68 +95,6 @@ force_historical_usa_borders_two = {
                 }
             }
             
-            # Cuba
-            if = {
-                limit = { exists = c:CUB }
-                create_diplomatic_pact = {
-                    country = c:CUB
-                    type = puppet
-                }
-            }
-            
-            # Nicaragua
-            if = {
-                limit = { exists = c:NIC }
-                create_diplomatic_pact = {
-                    country = c:NIC
-                    type = puppet
-                }
-            }
-            
-            # Costa Rica
-            if = {
-                limit = { exists = c:COS }
-                create_diplomatic_pact = {
-                    country = c:COS
-                    type = puppet
-                }
-            }
-            
-            # El Salvador
-            if = {
-                limit = { exists = c:ELS }
-                create_diplomatic_pact = {
-                    country = c:ELS
-                    type = puppet
-                }
-            }
-            
-            # Guatemala
-            if = {
-                limit = { exists = c:GUA }
-                create_diplomatic_pact = {
-                    country = c:GUA
-                    type = puppet
-                }
-            }
-            
-            # Honduras
-            if = {
-                limit = { exists = c:HON }
-                create_diplomatic_pact = {
-                    country = c:HON
-                    type = puppet
-                }
-            }
-            
-            # Central America (UCA Confederation)
-            if = {
-                limit = { exists = c:UCA }
-                create_diplomatic_pact = {
-                    country = c:UCA
-                    type = puppet
-                }
-            }
         }
     }
     
@@ -182,29 +103,7 @@ force_historical_usa_borders_two = {
     }
 }
 
-usa_friends = {
-    is_shown = {
-        is_ai = no
-    }
-    
-    possible = {
-        always = yes
-    }
-    
-    when_taken = {
-    		c:USA = {
-            activate_law = law_type:law_private_schools
-            set_secret_goal = { tcountry = c:ARG secret_goal = befriend } # Argentina
-            set_secret_goal = { tcountry = c:CHL secret_goal = befriend } # Chile
-            set_secret_goal = { tcountry = c:COL secret_goal = befriend } # Colombia/Nueva Granada
-            set_secret_goal = { tcountry = c:PRU secret_goal = befriend } # Perú
-            set_secret_goal = { tcountry = c:VEN secret_goal = befriend } # Venezuela
-            set_secret_goal = { tcountry = c:URU secret_goal = befriend } # Uruguay
-        }
-    }    
- }
-
- usa_block = {
+ eeuu_block = {
     is_shown = {
         is_ai = no
     }
@@ -216,39 +115,18 @@ usa_friends = {
     	    c:USA = {
                 activate_law = law_type:law_private_schools
                 activate_law = law_type:law_private_health_insurance
+                activate_law = law_type:law_no_migration_controls
                 add_technology_researched = paddle_steamer
                 create_power_bloc = {
                         name = "pb_great_america"
                         identity = identity_trade_league
                         map_color = { 120 216 230 }
-                        principle = principle_external_trade_2
-                        principle = principle_advanced_research_1
-                        principle = principle_freedom_of_movement_2
+                        principle = principle_external_trade_1
+                        principle = principle_freedom_of_movement_1
                     }
-                add_modifier = {
-                        name = USA_naval_superpower_ambition
-                    }
+
                 }
     }    
  }
 
-  france_block = {
-    is_shown = {
-        is_ai = no
-    }
-    
-    possible = {
-        always = yes
-    }
-    
-    when_taken = {
-			c:FRA = {
-                create_power_bloc = {
-                    name = "pb_traite_de_paris"
-                    identity = identity_trade_league
-                    map_color = { 0 86 184 }
-                    principle = principle_external_trade_1 
-                }
-			}
-    }    
- }
+

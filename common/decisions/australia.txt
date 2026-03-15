@@ -40,13 +40,13 @@
             s:STATE_NORTHERN_TERRITORY = { every_scope_state = { set_state_owner = c:TAS } }
         }
         
-        # Modificador "Impulso Imperial"
+        # Modificador "Impulso de Estabilidad"
         if = {
             limit = { exists = c:AST }
             c:AST = {
                 add_modifier = {
-                    name = impulse_buff_inmigracion
-                    months = 60
+                    name = impulse_estabilidad
+                    months = 36
                 }
             }
         }
@@ -54,8 +54,8 @@
             limit = { exists = c:TAS }
             c:TAS = {
                 add_modifier = {
-                    name = impulse_buff_inmigracion
-                    months = 60
+                    name = impulse_estabilidad
+                    months = 36
                 }
             }
         }

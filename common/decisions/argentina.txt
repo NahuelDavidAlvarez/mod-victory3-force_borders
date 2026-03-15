@@ -32,11 +32,11 @@ force_historical_arg_borders = {
             activate_law = law_type:law_slavery_banned
             activate_law = law_type:law_no_migration_controls
 
-            # Modificador "Impulso Imperial" por años
-            add_modifier = {
-                name = impulse_buff_inmigracion
-                months = 60
-            }
+			# Modificador "Impulso de Estabilidad"
+			add_modifier = {
+				name = impulse_estabilidad
+				months = 36
+			}
         }
     }
     

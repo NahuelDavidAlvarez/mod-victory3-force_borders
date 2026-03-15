@@ -26,10 +26,10 @@ reconocimiento_japones = {
 			activate_law = law_type:law_public_health_insurance
             activate_law = law_type:law_colonial_exploitation
 			 
-			# Modificador "Impulso Imperial"
+			# Modificador "Impulso de Estabilidad"
 			add_modifier = {
-				name = impulse_buff_natalidad
-				months = 24
+				name = impulse_estabilidad
+				months = 36
 			}
 
 			# Lista de estados a transferir

@@ -22,10 +22,10 @@ reconocimiento_chino = {
             activate_law = law_type:law_protectionism
 			activate_law = law_type:law_secret_police
 
-			# Modificador "Impulso Imperial"
+			# Modificador "Impulso de Estabilidad"
 			add_modifier = {
-				name = impulse_buff_natalidad
-				months = 24
+				name = impulse_estabilidad
+				months = 36
 			}
 
 			# Lista de estados a transferir
