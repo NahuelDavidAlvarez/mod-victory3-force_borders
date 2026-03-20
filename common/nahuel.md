@@ -82,3 +82,81 @@ impulse_buff_inmigracion = {
 Codificación UTF-8 con BOM: He usado un comando especial para forzar que el archivo lleve la "firma" (BOM) que el juego necesita para leer caracteres en español.
 Formato exacto: He eliminado comentarios y espacios extra que a veces confunden al motor del juego.
 Keys actualizadas: He incluido nombres para los Bloques de Poder (PB) y corregido las claves para que coincidan con tus archivos.txt
+
+
+-----
+
+# funcion anterior de reconocimiento chino, en la actualidad se usa el if para ver que nacion existe, para cuando china se fragmenta
+
+reconocimiento_chino = {
+	title = "reconocimiento_chino"
+	description = "reconocimiento_chino_desc"
+	
+	is_shown = {
+		is_ai = no
+	}
+
+	possible = {
+		always = yes
+	}
+
+	when_taken = {
+		c:CHI = {
+			set_country_type = recognized
+			set_variable = china_permanently_recognized
+			custom_tooltip = "china_is_recognized_tt"
+
+			activate_law = law_type:law_presidential_republic
+			activate_law = law_type:law_autocracy
+			activate_law = law_type:law_interventionism
+            activate_law = law_type:law_protectionism
+			activate_law = law_type:law_secret_police
+
+			# Modificador "Impulso de Estabilidad"
+			add_modifier = {
+				name = impulse_estabilidad
+				months = 36
+			}
+
+			# Lista de estados a transferir (Limpia enclaves y fragmentos)
+			s:STATE_BEIJING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_ZHILI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHANDONG = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_HENAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHANXI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_XIAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_JIANGSU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NANJING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SUZHOU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_ZHEJIANG = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NORTHERN_ANHUI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SOUTHERN_ANHUI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_JIANGXI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GUANGDONG = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHAOZHOU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GUANGXI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_FUJIAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_FORMOSA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_HUNAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GUIZHOU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_YUNNAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SICHUAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_CHONGQING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_WESTERN_HUBEI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_EASTERN_HUBEI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_GANSU = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NINGXIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_ALXA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_QINGHAI = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_DZUNGARIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_TIANSHAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SHENGJING = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_SOUTHERN_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_NORTHERN_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_HINGGAN = { every_scope_state = { set_state_owner = c:CHI } }
+			s:STATE_OUTER_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
+			#s:STATE_LHASA = { transfer_state_to = c:CHI }
+			#s:STATE_NGARI = { transfer_state_to = c:CHI }
+		}
+	}
+}

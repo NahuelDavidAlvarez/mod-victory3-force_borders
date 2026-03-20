@@ -1,72 +1,88 @@
 reconocimiento_chino = {
-	title = "reconocimiento_chino"
-	description = "reconocimiento_chino_desc"
-	
-	is_shown = {
-		is_ai = no
-	}
+    title = "reconocimiento_chino"
+    description = "reconocimiento_chino_desc"
+    
+    is_shown = {
+        is_ai = no
+    }
 
-	possible = {
-		always = yes
-	}
+    possible = {
+        always = yes
+    }
 
-	when_taken = {
-		c:CHI = {
-			set_country_type = recognized
-			set_variable = china_permanently_recognized
-			custom_tooltip = "china_is_recognized_tt"
+    when_taken = {
+        if = {
+            limit = { exists = c:CHI }
+            c:CHI = { save_scope_as = china_a_unificar }
+        }
+        else_if = {
+            limit = { exists = c:QIN }
+            c:QIN = { save_scope_as = china_a_unificar }
+        }
+        else_if = {
+            limit = { exists = c:TPG }
+            c:TPG = { save_scope_as = china_a_unificar }
+        }
+        else_if = {
+            limit = { exists = c:SIH }
+            c:SIH = { save_scope_as = china_a_unificar }
+        }
+        else_if = {
+            limit = { exists = c:SHN }
+            c:SHN = { save_scope_as = china_a_unificar }
+        }
 
-			activate_law = law_type:law_presidential_republic
-			activate_law = law_type:law_autocracy
-			activate_law = law_type:law_interventionism
+
+        scope:china_a_unificar = {
+            set_country_type = recognized
+            
+            activate_law = law_type:law_presidential_republic
+            activate_law = law_type:law_autocracy
+            activate_law = law_type:law_interventionism
             activate_law = law_type:law_protectionism
-			activate_law = law_type:law_secret_police
+            activate_law = law_type:law_secret_police
 
-			# Modificador "Impulso de Estabilidad"
-			add_modifier = {
-				name = impulse_estabilidad
-				months = 36
-			}
+            add_modifier = {
+                name = impulse_estabilidad
+                months = 36
+            }
 
-			# Lista de estados a transferir (Limpia enclaves y fragmentos)
-			s:STATE_BEIJING = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_ZHILI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SHANDONG = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_HENAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SHANXI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_XIAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_JIANGSU = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_NANJING = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SUZHOU = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_ZHEJIANG = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_NORTHERN_ANHUI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SOUTHERN_ANHUI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_JIANGXI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_GUANGDONG = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SHAOZHOU = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_GUANGXI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_FUJIAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_FORMOSA = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_HUNAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_GUIZHOU = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_YUNNAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SICHUAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_CHONGQING = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_WESTERN_HUBEI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_EASTERN_HUBEI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_GANSU = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_NINGXIA = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_ALXA = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_QINGHAI = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_DZUNGARIA = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_TIANSHAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SHENGJING = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_SOUTHERN_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_NORTHERN_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_HINGGAN = { every_scope_state = { set_state_owner = c:CHI } }
-			s:STATE_OUTER_MANCHURIA = { every_scope_state = { set_state_owner = c:CHI } }
-			#s:STATE_LHASA = { transfer_state_to = c:CHI }
-			#s:STATE_NGARI = { transfer_state_to = c:CHI }
-		}
-	}
+            s:STATE_BEIJING = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_ZHILI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SHANDONG = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_HENAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SHANXI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_XIAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_JIANGSU = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_NANJING = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SUZHOU = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_ZHEJIANG = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_NORTHERN_ANHUI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SOUTHERN_ANHUI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_JIANGXI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_GUANGDONG = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SHAOZHOU = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_GUANGXI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_FUJIAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_FORMOSA = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_HUNAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_GUIZHOU = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_YUNNAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SICHUAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_CHONGQING = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_WESTERN_HUBEI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_EASTERN_HUBEI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_GANSU = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_NINGXIA = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_ALXA = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_QINGHAI = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_DZUNGARIA = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_TIANSHAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SHENGJING = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_SOUTHERN_MANCHURIA = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_NORTHERN_MANCHURIA = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_HINGGAN = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+            s:STATE_OUTER_MANCHURIA = { every_scope_state = { set_state_owner = scope:china_a_unificar } }
+        }
+    }
 }
