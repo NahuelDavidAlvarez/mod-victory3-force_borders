@@ -20,16 +20,16 @@ reconocimiento_chino = {
             c:QIN = { save_scope_as = china_a_unificar }
         }
         else_if = {
-            limit = { exists = c:TPG }
-            c:TPG = { save_scope_as = china_a_unificar }
+            limit = { exists = c:SHN }
+            c:SHN = { save_scope_as = china_a_unificar }
         }
         else_if = {
             limit = { exists = c:SIH }
             c:SIH = { save_scope_as = china_a_unificar }
         }
         else_if = {
-            limit = { exists = c:SHN }
-            c:SHN = { save_scope_as = china_a_unificar }
+            limit = { exists = c:TPG }
+            c:TPG = { save_scope_as = china_a_unificar }
         }
 
 
