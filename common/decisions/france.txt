@@ -11,9 +11,9 @@
 			c:FRA = {
                 create_power_bloc = {
                     name = "pb_traite_de_paris"
-                    identity = identity_trade_league
+                    identity = identity_sovereign_empire
                     map_color = { 0 86 184 }
-                    principle = principle_external_trade_1 
+                     #principle = principle_external_trade_1 
                 }
 			}
     }    

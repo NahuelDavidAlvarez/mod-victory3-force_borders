@@ -39,11 +39,11 @@ usa_friends = {
                 add_technology_researched = paddle_steamer
                 create_power_bloc = {
                         name = "pb_great_america"
-                        identity = identity_trade_league
+                        identity = identity_trade_league | identity_sovereign_empire
                         map_color = { 120 216 230 }
-                        principle = principle_external_trade_2
-                        principle = principle_advanced_research_1
-                        principle = principle_freedom_of_movement_2
+                         #principle = principle_external_trade_2
+                         #principle = principle_advanced_research_1
+                         #principle = principle_freedom_of_movement_2
                     }
                 add_modifier = { // agregar modificadores, que debe estar seteados en la carpeta static_modifiers
                         name = USA_naval_superpower_ambition
@@ -159,4 +159,22 @@ reconocimiento_chino = {
 			#s:STATE_NGARI = { transfer_state_to = c:CHI }
 		}
 	}
+}
+
+--------------
+# NOMBRES:
+Liga Comercial identity_trade_league
+Imperio Soberano identity_sovereign_empire
+Unión Ideológica identity_ideological_union
+Convocatoria Religiosa identity_religious_convocation
+Unión Militar identity_military_treaty
+
+# Ejemplo de cómo el juego crea la Zollverein histórica
+power_bloc_zollverein = {
+    leader = c:PRU
+    identity = identity_trade_league  # <--- Aquí haces referencia al bloque
+    principles = {
+        principle_external_trade_1
+        principle_internal_trade_1
+    }
 }
