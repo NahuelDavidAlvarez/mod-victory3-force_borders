@@ -13,7 +13,8 @@
                     name = "pb_traite_de_paris"
                     identity = identity_sovereign_empire
                     map_color = { 0 86 184 }
-                     #principle = principle_external_trade_1 
+                    # principle = principle_external_trade_1 
+                    principle = principle_vassalization_1
                 }
 			}
     }    

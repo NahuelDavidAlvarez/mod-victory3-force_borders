@@ -123,6 +123,7 @@ force_eeuu_mexican_panama = {
                         map_color = { 120 216 230 }
                         # principle = principle_external_trade_1
                         # principle = principle_freedom_of_movement_1
+                        principle = principle_vassalization_1
                     }
 
                 }
