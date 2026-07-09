@@ -178,3 +178,26 @@ power_bloc_zollverein = {
         principle_internal_trade_1
     }
 }
+
+# Ubicación original: game/common/history/power_blocs/00_power_blocs.txt
+
+power_bloc_british_empire = {
+    # Define al Líder (Gran Bretaña)
+    leader = c:GBR
+    
+    # Tipo de Bloque: Imperio Soberano (Requiere DLC Sphere of Influence)
+    identity = identity_sovereign_empire
+    
+    # Estética del mapa y la interfaz
+    customization = {
+        pattern = "pattern_uk"       # Patrón de mapa del Imperio Británico
+        crest = "crest_uk"           # Escudo/Emblema central del bloque
+        statue = "statue_uk"         # Estatua representativa en el menú de bloques
+    }
+
+    # Principios iniciales con los que arranca en 1836
+    principles = {
+        principle_vassalization_1     # Vasallaje (Nivel 1)
+        principle_colonial_offices_1   # Oficinas Coloniales (Nivel 1)
+    }
+}

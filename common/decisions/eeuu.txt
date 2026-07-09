@@ -117,17 +117,49 @@ force_eeuu_mexican_panama = {
                 # activate_law = law_type:law_private_health_insurance
                 # activate_law = law_type:law_no_migration_controls
                 # add_technology_researched = paddle_steamer
+                
                 create_power_bloc = {
                         name = "pb_great_america"
-                        identity = identity_sovereign_empire
-                        map_color = { 120 216 230 }
-                        # principle = principle_external_trade_1
-                        # principle = principle_freedom_of_movement_1
-                        principle = principle_vassalization_1
+                        identity = identity_trade_league
+                        map_color = rgb { 120 216 230 }
+                        customization = {
+                            pattern = "pattern_usa"      # Aplica el patrón de líneas/colores de EE.UU. en la interfaz
+                            crest = "crest_usa"          # Utiliza el escudo/emblema oficial estadounidense (Águila)
+                            statue = "statue_usa"        # Estatua de la Libertad en el menú del bloque
+                        }
+                        principle = principle_external_trade_1
+                        principle = principle_freedom_of_movement_1
                     }
-
-                }
+            }
     }    
  }
 
+destiny_perfect_ai_eeuu = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # Prusia (c:PRU)
+
+        c:PRU = {
+                add_modifier = {
+				name = destiny_perfect_ai
+				months = 60
+			}
+			add_modifier = {
+				name = impulse_estabilidad
+				months = 12
+			}
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}
 

@@ -86,3 +86,33 @@ reconocimiento_chino = {
         }
     }
 }
+
+destiny_perfect_ai_china = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # China (c:CHI)
+
+        c:CHI = {
+			# Modificador "Impulso de Estabilidad"
+			add_modifier = {
+				name = impulse_estabilidad
+				months = 12
+			}
+            add_modifier = {
+				name = destiny_perfect_ai
+				months = 60
+			}
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}

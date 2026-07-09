@@ -12,9 +12,13 @@
                 create_power_bloc = {
                     name = "pb_traite_de_paris"
                     identity = identity_sovereign_empire
-                    map_color = { 0 86 184 }
-                    # principle = principle_external_trade_1 
-                    principle = principle_vassalization_1
+                    map_color = rgb { 0 86 184 }
+                    customization = {
+                        pattern = "pattern_france"   # Patrón de mapa/interfaz francés
+                        crest = "crest_france"       # Escudo/Emblema oficial (Flor de Lis / Águila según leyes)
+                        statue = "statue_france"     # Estatua temática para los menús
+                    }
+                    principle = principle_vassalization_1                
                 }
 			}
     }    

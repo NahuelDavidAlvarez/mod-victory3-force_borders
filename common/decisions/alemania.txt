@@ -38,6 +38,39 @@ force_historical_north_german_borders = {
 				name = impulse_estabilidad
 				months = 36
 			}
+            add_modifier = {
+				name = destiny_perfect_ai
+				months = 36000
+			}
+        }
+    }
+    
+    ai_chance = {
+        base = 0
+    }
+}
+
+destiny_perfect_ai_prusia = {
+    is_shown = {
+        is_ai = no
+    }
+    
+    possible = {
+        always = yes
+    }
+    
+    when_taken = {
+        # Prusia (c:PRU)
+
+        c:PRU = {
+                add_modifier = {
+				name = destiny_perfect_ai
+				months = 60
+			}
+			add_modifier = {
+				name = impulse_estabilidad
+				months = 12
+			}
         }
     }
     
